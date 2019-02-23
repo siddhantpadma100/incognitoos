@@ -1,0 +1,38 @@
+﻿body {font-family:'Sakal Marathi'; font-size:14px; line-height:150%}
+@font-face{font-family:'Sakal Marathi';src:url('../fonts/SakalMarathi-Normal.eot');src:url('../fonts/SakalMarathi-Normald41d.eot?#iefix') format('embedded-opentype'), url('../fonts/SakalMarathi-Normal.woff') format('woff'), url('../fonts/SakalMarathi-Normal.ttf') format('truetype'), url('../fonts/SakalMarathi-Normal.svg#SakalMarathi-Normal') format('svg');font-weight:normal;font-style:normal;}
+
+.mas a {padding:13px 6px 5px!important;}
+.beneschemebu {padding:10px 15px 0!important;}
+.box-link a i {margin-top:-5px;}
+.box-link a {padding: 20px 10px 10px;}
+.maha-guidline li:before {left:29px;}
+.maha-guidline a {padding-top:4px;display:block;}
+.arrow_box:after {margin-top:-37px!important;}
+.arrow_box:before {margin-top:-45px!important;}
+.footer-links li a {padding-top: 5px;}
+.copyright-text {padding-top:5px;}
+label {margin-bottom:0px;}
+legend {padding-top:8px!important;padding-bottom:0!important;}
+.shop-tracking-status .image-order-status-active .icon{padding:6px 8px 0!important;}
+.shop-tracking-status .image-order-status-intransit .icon{padding:7px 15px 0!important;}
+.shop-tracking-status .image-order-status-delivered .icon{padding:8px 3px 0!important;}
+.shop-tracking-status .image-order-status-completed .icon{padding:7px 7px 0!important;}
+.shop-tracking-status .image-order-status-completed-1 .icon{padding:6px 8px 0!important;}
+.shop-tracking-status .image-order-status-new .icon {padding:6px 10px 0!important;}
+.progress .progress-value{padding: 4px 5px 0;}
+.news li {padding-top: 5px!important;}
+.pagetitle h1{ margin-top:10px}
+.form-group:hover .next-info::after {top:24px;}
+.arrow_box:after, .arrow_box:before {top:71%;}
+.progress .progress-value span {font-size:1em !important; padding:0 10px !important;}
+.flow-no{padding-top: 19px;}
+.thumb { padding-top:25px!important;}
+.flow-head {font-size:1.15em}
+.togglelink span {font-size:1.15em}
+.togglelink a{font-size:1.15em}
+.mrlft25 {margin-left:20px;}
+
+.tab .nav-tabs li span {color: #9e9885;font-size: 3.5em;padding: 5px 0 0 5px;height: 62px;}
+.tab .nav-tabs li.active span {font-size: 3.5em;}
+
+
