@@ -1,5 +1,10 @@
-
-   
+<?php
+session_start();
+if(isset($_SESSION['admin_log']))
+{
+if($_SESSION['admin_log']==1)
+{ 
+?>
   <!DOCTYPE html>
 <html>
     <head>
@@ -49,9 +54,22 @@
     <div class="panel-heading">
   <h1>Welcome</h1> 
 
+<<<<<<< HEAD
   <div class="container">
   <div class="row">
 
+=======
+<form action="saddofficer.php" method="post">
+  First Name:<br><input type="text" name="f_name" required><br>
+  
+  <br>Last Name:<br><input type="text" name="l_name" required><br>
+  
+  <br>Email id:<br><input type="text" name="email_id" required><br>
+  
+  <br>Mobile number:<br><input type="text" name="mob_no" required><br>
+
+  <br>Password:<br><input type="password" name="password" required><br>
+>>>>>>> 5b014f6943aae056de536ca8be8a79bdb823b994
 
     <div class="col-md-2">
     </div>

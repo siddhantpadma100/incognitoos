@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>MSME DELHI</title>
     
         <link href="../lib/css/dashboard.css" rel="stylesheet" id="bootstrap-css">
       <script src="lib/jquery-3.2.1.min.js">

@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>MSME DELHI</title>
         <link href="../lib/css/dashboard.css" rel="stylesheet" id="bootstrap-css">
               <script src="lib/jquery-3.2.1.min.js">
                 $(function () {
@@ -65,7 +65,7 @@ include "nav.php";?>
     <!-- uncomment code for absolute positioning tweek see top comment in css -->
     <div class="absolute-wrapper"> </div>
     <!-- Menu -->
-   <?php include "sidebar.php"?>
+   <?php include "sidebar.php";?>
 </div>          </div>
         <div class="col-md-10 content">
               <div class="panel panel-default">
@@ -78,12 +78,6 @@ include "nav.php";?>
       </form>
                 
     </div>
-    
-     
-          
-        
-                 
-       
 </div>
         </div>
         <footer class="pull-left footer">

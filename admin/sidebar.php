@@ -10,7 +10,7 @@
                             <div class="panel-body">
                                 <ul class="nav navbar-nav">
                                     
-                                    <li><a href="addofficer.php>">Add officer</a></li>
+                                    <li><a href="addofficer.php">Add officer</a></li>
                                     <li><a href="viewofficer.php">View officer</a></li>
                                     <li><a href="deleteofficer.php">Delete Officer</a></li>
                                 </ul>
