@@ -46,6 +46,28 @@
               <div class="panel panel-default">
     <div class="panel-heading">
   Welcome 
+
+<form action="sregister.php" method="post">
+  First Name:<br><input type="text" name="f_name" required><br>
+  
+  <br>Last Name:<br><input type="text" name="l_name" required><br>
+  
+  <br>Email id:<br><input type="text" name="email_id" required><br>
+  
+  <br>Mobile number:<br><input type="text" name="mob_no" required><br>
+
+  <br>Password:<br><input type="password" name="pwd" required><br>
+
+  <br>Repeat Password:<br><input type="password" name="rpwd" required><br>
+
+  <br><input type="submit" name="" value="add officer" >
+
+</form>
+
+
+
+
+
     </div>
     <div class="panel-body">
       <h2>Overall Requirement</h2>

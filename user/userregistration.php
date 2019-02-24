@@ -76,13 +76,31 @@
 	<p class="divider-text">
         <span>OR</span>
     </p>
+
+    <form action="sregister.php" method="post">
+    Full Name:<br><input type="text" name="f_name" required><br>
+    
+    <br>Email id:<br><input type="text" name="email_id" required><br>
+    
+    <br>Mobile number:<br><input type="text" name="mob_no" required><br>
+
+    <br>Password:<br><input type="password" name="pwd" required><br>
+
+    <br>Repeat Password:<br><input type="password" name="rpwd" required><br>
+
+
+
+    <br><input type="submit" name="" value="Register" >
+
+</form>
+
+
 	<form>
 	
 	<div class="form-group input-group">
 		<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="glyphicon glyphicon-user"></i> </span>
-		 
-        <input name="" class="form-control" placeholder="Full name" type="text" required>
+		 Full Name: <input type="text" name="f_name" class="form-control" placeholder="Full name" required>
 		</div>
     </div> <!-- form-group// -->
 	
