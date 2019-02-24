@@ -52,7 +52,7 @@ if($_SESSION['admin_log']==1)
         <div class="col-md-10 content">
               <div class="panel panel-default">
     <div class="panel-heading">
-  <h1>Welcome</h1> 
+  <h1>Add Officer</h1> 
 
   <div class="container">
   <div class="row">

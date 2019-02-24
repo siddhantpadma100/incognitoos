@@ -8,3 +8,4 @@
 8.remove login via gmail/twitter
 9.add link to all logo  i.e redirect to home page
 10. check session to all pages
+11.please change all data is inserted message to proper message
