@@ -72,7 +72,7 @@ if($_SESSION['admin_log']==1)
 
     </body>    
 </html>
-
+<?php
 }
 else
 {
