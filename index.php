@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-
 <html>
-
-
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <!--start of head-->
 <head>
@@ -201,10 +198,7 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
                         </div>
 						
                     <div class="col-md-6 col-xs-12 col-custom-m">
-					
-
-
-
+		
 <script type="text/javascript">
 
 </script>
