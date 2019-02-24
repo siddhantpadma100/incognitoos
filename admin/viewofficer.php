@@ -51,11 +51,42 @@ if($_SESSION['admin_log']==1)
         <div class="col-md-10 content">
               <div class="panel panel-default">
     <div class="panel-heading">
-  Welcome 
+  View Officer
     </div>
     <div class="panel-body">
-      <h2>Overall Requirement</h2>
-
+      <h2>MSME OFFICER</h2>
+      <table class="table table-bordered">
+      <thead>
+      <tr>
+          <td>Sr.</td><td> Items</td><td>Quantity</td><td>Total Quantity</td>
+      </tr>
+    </thead><tbody>
+        <%
+        while(a.next())
+           {
+              %>
+              <tr><td>
+                <%       out.println(i);%>
+              </td><td>
+                  <% 
+                    out.println(a.getString("items"));
+                  %>
+                </td> <td>
+                    <%
+                      out.println(a.getString("qty"));
+                    %>
+              </td><td>
+                  <% 
+                    out.println(a.getString("tqty"));
+                  %>
+                </td>
+              </tr>      
+             <%  
+             i++;   
+           }
+  
+        %>
+        </table>
 
 
 
