@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Grievance</title>
 </head>
 <body>
 <form action="sregister.php" method="post">

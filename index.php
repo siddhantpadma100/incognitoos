@@ -4,7 +4,7 @@
 <!--start of head-->
 <head>
     <!--meta tags-->
-     <title>MSME DELHI sid</title>
+     <title>MSME DELHI</title>
     <meta charset="utf-8" />
 	<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="lib/Content/bootstrap.min.css">

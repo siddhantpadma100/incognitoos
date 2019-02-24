@@ -49,7 +49,7 @@
     <div class="panel-heading">
   <h1>Welcome</h1> 
 
-<form action="sregister.php" method="post">
+<form action="saddofficer.php" method="post">
   First Name:<br><input type="text" name="f_name" required><br>
   
   <br>Last Name:<br><input type="text" name="l_name" required><br>
@@ -58,7 +58,7 @@
   
   <br>Mobile number:<br><input type="text" name="mob_no" required><br>
 
-  <br>Password:<br><input type="password" name="pwd" required><br>
+  <br>Password:<br><input type="password" name="password" required><br>
 
   <br>Repeat Password:<br><input type="password" name="rpwd" required><br>
 
