@@ -5,7 +5,6 @@ if(isset($_SESSION['officer_log']))
 if($_SESSION['officer_log']==1)
 { 
 ?>
-   
   <!DOCTYPE html>
 <html>
     <head>
@@ -28,10 +27,8 @@ if($_SESSION['officer_log']==1)
             });
           });  
    </script>
-
     </head>
  <body> 
-    
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>

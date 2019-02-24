@@ -64,11 +64,11 @@ if($_SESSION['officer_log']==1)
         <?php
        include "../config.php";
        $i=1;
-       $result=mysqli_query($con,"SELECT * FROM `login_officer`");
+       $result=mysqli_query($con,"SELECT * FROM `login_user`");
 		while ($row=mysqli_fetch_array($result)){
 		echo "<tr>";
 		echo "<td>".$i."</td>";
-		echo "<td>".$row ['f_name'].$row['l_name']."</td>";
+		echo "<td>".$row ['f_name']."</td>";
 		echo "<td>".$row['email_id']."</td>";
 		echo "<td>".$row['mob_no']."</td>";
 		echo "<td><button class='btn btn-sucess'>Block</button> <button class='btn btn-sucess'>Delete</button></td>";
