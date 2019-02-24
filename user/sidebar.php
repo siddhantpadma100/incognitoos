@@ -5,31 +5,20 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.jsp">Dashboard</a></li>
                     <li class="panel panel-default" id="dropdown">
-                        <a data-toggle="collapse" href="#dropdown-lvl2"> user <span class="caret"></span></a>
+                        <a data-toggle="collapse" href="#dropdown-lvl2">Certificate<span class="caret"></span></a>
                         <div id="dropdown-lvl2" class="panel-collapse collapse">
                             <div class="panel-body">
                                 <ul class="nav navbar-nav">
                                     <li><a href="acad.jsp">Apply for Certificate</a></li>
                                     <li><a href="dept.jsp">Update Certificate</a></li>
-                                    <li><a href="insti.jsp">Grievance</a></li>
+                                    
                                 </ul>
                             </div>
                         </div>
                     </li>
-                    <li><a href="closing.jsp">Closing stock</a></li>
-                    <li><a href="gen.jsp">Generate requirement</a></li>
-                    <li class="panel panel-default" id="dropdown">
-                        <a data-toggle="collapse" href="#dropdown-lvl1"> Item <span class="caret"></span></a>
-                        <div id="dropdown-lvl1" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <ul class="nav navbar-nav">
-                                    <li><a href="additem.jsp">Add item</a></li>
-                                    <li><a href="deleteitem.jsp">Delete Item</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <li><a href="..\error.jsp">Logout</a></li>
+                    <li><a href="closing.jsp">Grievance</a></li>
+                    <li><a href="gen.jsp">Notifications</a></li>
+                    
 
                 </ul>
             </div><!-- /.navbar-collapse -->
