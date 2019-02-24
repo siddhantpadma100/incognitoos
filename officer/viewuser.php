@@ -58,7 +58,7 @@ if($_SESSION['officer_log']==1)
       <table class="table table-bordered">
       <thead>
       <tr>
-          <td>Sr.</td><td>Name</td><td>Email</td><td>Phone</td><td>Action</td>
+          <td>Sr.</td><td>EName/business</td><td>Email</td><td>Phone</td><td>Action</td>
       </tr>
     </thead><tbody>
         <?php
