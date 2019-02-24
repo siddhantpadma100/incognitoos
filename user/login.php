@@ -119,16 +119,16 @@
     <a href="" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i> &nbsp; Login via Gmail</a>
 	</p>
   <hr>
-  <form>
+  <form action="slogin.php" method="post" >
     <div class="form-group input-icon">
       <i class="fa fa-user"></i>
-        <input name="" class="form-control" placeholder="Email or login" type="email" required>
+        <input name="uname" class="form-control" placeholder="Email or login" type="email" required>
     </div> <!-- form-group// -->
 
     <div class="form-group input-icon">
       <i class="fa fa-lock"></i>
 
-        <input class="form-control" placeholder="******" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+        <input name="password" class="form-control" placeholder="******" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
     </div> <!-- form-group// -->  
 
     <div class="row">
