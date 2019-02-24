@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>User Dashboard</title>
        <link href="../lib/css/dashboard.css" rel="stylesheet" id="bootstrap-css">
       <script src="lib/jquery-3.2.1.min.js">
                 $(function () {
@@ -31,10 +31,6 @@
 
 <?php include "nav.php";?>
 
-
-
-
-<!------ Include the above in your HEAD tag ---------->
     <div class="container-fluid main-container">
         <div class="col-md-2 sidebar">
             <div class="row">

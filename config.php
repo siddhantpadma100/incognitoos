@@ -28,6 +28,16 @@ $uniquesavename=time().uniqid(rand());
 $id="l_".$date.$uniquesavename;
 return $id;
 }
+
+function documentid()
+{
+$date=date("YmdHis");
+$uniquesavename=time().uniqid(rand());
+$id="d_".$date.$uniquesavename;
+return $id;
+}
+
+
 // echo officer_id();
 // echo "<br>";
 // echo user_id();
