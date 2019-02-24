@@ -1,5 +1,11 @@
 
-   
+   <?php
+session_start();
+if(isset($_SESSION['admin_log']))
+{
+if($_SESSION['admin_log']==1)
+{ 
+?>
   <!DOCTYPE html>
 <html>
     <head>
@@ -85,3 +91,18 @@
     </body>    
 </html>
 
+<?php
+}
+else
+{
+
+echo "please login";
+header("refresh:1;url=login.php");
+}
+}
+else
+{
+  echo "please login";
+header("refresh:1;url=login.php");
+}
+?>

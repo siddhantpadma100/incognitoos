@@ -3,8 +3,13 @@
 <body>
 	<b>Welcome</b>
 <?php
-$f_name=$_POST['f_name'];
+session_start();
+if(isset($_SESSION['admin_log']))
+{
+if($_SESSION['admin_log']==1)
+{ 
 
+$f_name=$_POST['f_name'];
 $l_name=$_POST['l_name'];
 $email_id=$_POST['email_id'];
 $mob_no=$_POST['mob_no'];
@@ -25,6 +30,19 @@ echo "Data is inserted successfully";
 }
 else{
 	echo "Data inserting failed";
+}
+}
+else
+{
+
+echo "please login";
+header("refresh:1;url=login.php");
+}
+}
+else
+{
+  echo "please login";
+header("refresh:1;url=login.php");
 }
 ?>
 </body>
