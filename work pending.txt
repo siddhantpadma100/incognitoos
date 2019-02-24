@@ -5,5 +5,5 @@
 5.user can view the shcemes and apply the scheme
 6.user can change password 
 7.officer can change password
-
-
+8.remove login via gmail/twitter
+9.add link to all logo  i.e redirect to home page
