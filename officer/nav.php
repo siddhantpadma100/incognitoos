@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#">
-              Admin
+         Officer
             </a>
         </div>
 
@@ -25,19 +25,9 @@
                         <ul class="dropdown-menu" role="menu">
                             <li class="active"><a href="index.jsp">Dashboard</a></li>
                             <li class="divider"></li>
-                            <li><a href="acad.jsp">Register for certificate</a></li>
-                            <li class="divider"></li>
-                            <li><a href="dept.jsp">Department-wise report</a></li>
-                            <li class="divider"></li>                            
-                            <li><a href="insti.jsp">Institute-wise report</a></li>
-                            <li class="divider"></li>
-                            <li><a href="closing.jsp">Closing stock</a></li>
-                            <li class="divider"></li>
-                            <li><a href="gen.jsp">Generate requirement</a></li>
-                            <li class="divider"></li>
-                            <li><a href="additem.jsp">Add item</a></li>
-                            <li class="divider"></li>
-                            <li><a href="deleteitem.jsp">Delete Item</a></li>
+                        
+                            
+                            <li><a href="change.php">Change Password</a></li>
                             <li class="divider"></li>
                             <li><a href="..\error.jsp">Logout</a></li>
                         </ul>

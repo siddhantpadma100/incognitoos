@@ -23,9 +23,9 @@
                         Profile
                         <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li class="active"><a href="index.jsp">Change password</a></li>
+                            <li class="active"><a href="index.php">Change password</a></li>
                             <li class="divider"></li>
-                            <li><a href="acad.jsp">Change profile</a></li>
+                            <li><a href="acad.php">Change profile</a></li>
                             <li class="divider"></li>
                             <li><a href="logout.php">Logout</a></li>
                             <li class="divider"></li>                            

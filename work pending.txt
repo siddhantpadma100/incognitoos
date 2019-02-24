@@ -7,5 +7,6 @@
 7.officer can change password
 8.remove login via gmail/twitter
 9.add link to all logo  i.e redirect to home page
-10. check session to all pages
+10.check session to all pages [separate admin,user,officer session]
 11.please change all data is inserted message to proper message
+12.testing 

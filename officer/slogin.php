@@ -10,8 +10,6 @@ else
 $username=$_POST['uname'];//username
 $password=$_POST['password'];//password 
 
-
-
 //mysqli("localhost","username of database","password of database","database name")
 
 $sql="SELECT * FROM `login_officer` WHERE `email_id`='$username' && `password`='$password'";
@@ -29,8 +27,8 @@ do{
 
 				session_start();
 				echo "Login success";
-				$_SESSION['admin_log']=1;
-				$_SESSION['admin']="admin";
+				$_SESSION['officer_log']=1;
+				$_SESSION['officer']="admin";
 				header("refresh:1;url=index.php");	
 			}
 			else{
