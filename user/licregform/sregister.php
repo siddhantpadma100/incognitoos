@@ -3,6 +3,8 @@
 <body>
 	<b>Welcome</b>
 <?php
+session_start();
+
 include "../../config.php";
 
 $date=date("Y");
@@ -46,6 +48,7 @@ $no_of_emp=$_POST['no_of_emp'];
 $investment=$_POST['investment'];
 
 $id=licenseid();
+	$_SESSION['id']=$id;
 if (mysqli_connect_errno())
   {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
@@ -55,6 +58,7 @@ $query= mysqli_query($con,$sql);
 if($query)
 {
 echo "Data is inserted successfully";
+header("refresh:1;url=printform.php");
 }
 else{
 	echo "Data inserting failed";
