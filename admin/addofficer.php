@@ -22,7 +22,9 @@
             });
           });  
    </script>
-
+<style type="text/css">
+  
+</style>
     </head>
  <body> 
     
@@ -45,7 +47,7 @@
         <div class="col-md-10 content">
               <div class="panel panel-default">
     <div class="panel-heading">
-  Welcome 
+  <h1>Welcome</h1> 
 
 <form action="sregister.php" method="post">
   First Name:<br><input type="text" name="f_name" required><br>
@@ -60,7 +62,8 @@
 
   <br>Repeat Password:<br><input type="password" name="rpwd" required><br>
 
-  <br><input type="submit" name="" value="add officer" >
+  <br>
+  <button class="btn btn-primary">add</button>
 
 </form>
 
@@ -70,8 +73,7 @@
 
     </div>
     <div class="panel-body">
-      <h2>Overall Requirement</h2>
-
+     
   <br>
     </div>
 </div>

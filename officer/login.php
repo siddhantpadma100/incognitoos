@@ -85,7 +85,7 @@ if ((a - document.myForm.email.value.lastIndexOf(".")) < 2)
                         </div>
                     </div>
                     <div class="col-sm-3 col-md-3 col-xs-3 hidden-xs">
-                        <img alt="MSME" src="Images/swach-bharat.png" hspace="5" vspace="5" />
+                        <img alt="MSME" src="../lib/images/swach-bharat.png" hspace="5" vspace="5" />
                     </div>
                 </div>
             </div>
