@@ -66,13 +66,14 @@ if($_SESSION['admin_log']==1)
        $i=1;
        $result=mysqli_query($con,"SELECT * FROM `login_officer`");
 		while ($row=mysqli_fetch_array($result)){
-		echo $row ['f_name'].$row['l_name'];
-		echo $row['email_id'];
-		echo $row['mob_no'];
-
-
+		echo "<tr>";
+		echo "<td>".$i."</td>";
+		echo "<td>".$row ['f_name'].$row['l_name']."</td>";
+		echo "<td>".$row['email_id']."</td>";
+		echo "<td>".$row['mob_no']."</td>";
+		echo "<td><button class='btn btn-sucess'>Block</button></td>";
+		echo "</tr>";
 		}
-
         ?>
         </table>
 
