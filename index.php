@@ -259,6 +259,11 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
                                 <div class="box-link">
                                     <a href='user/userregistration.php'> <i class="fa fa-id-badge" aria-hidden="true"></i>New Registration of user</a>
                                 </div>
+                               
+                                <div class="box-link">
+                                    <a href='user/login.php'> <i class="fa fa-unlock-alt" aria-hidden="true"></i>User Login</a>
+                        
+                                </div>
 								
                                 <div class="box-link">
                                     <a href='officer/login.php'> <i class="fa fa-unlock-alt" aria-hidden="true"></i>Officer Login</a>
@@ -268,10 +273,7 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
                                     <a href='admin/login.php'> <i class="fa fa-unlock-alt" aria-hidden="true"></i>Admin Login</a>
                                 </div>
 								
-								<div class="box-link">
-                                    <a href='user/login.php'> <i class="fa fa-unlock-alt" aria-hidden="true"></i>User Login</a>
-						
-                                </div>
+								
 								
 								
                                   
