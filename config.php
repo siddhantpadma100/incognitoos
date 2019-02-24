@@ -7,11 +7,30 @@ $password="";
 $con=mysqli_connect($host,$user,$password,$db);
 
 
-// function  uniqueNameId()
-// {
-// $date=date("YmdHis");
-// $uniquesavename=time().uniqid(rand());
-// $id=$date.$uniquesavename;
-// return $id;
-// }
+function  officer_id()
+{
+$date=date("YmdHis");
+$uniquesavename=time().uniqid(rand());
+$id="o_".$date.$uniquesavename;
+return $id;
+}
+function  user_id()
+{
+$date=date("YmdHis");
+$uniquesavename=time().uniqid(rand());
+$id="u_".$date.$uniquesavename;
+return $id;
+}
+function licenseid()
+{
+$date=date("YmdHis");
+$uniquesavename=time().uniqid(rand());
+$id="l_".$date.$uniquesavename;
+return $id;
+}
+// echo officer_id();
+// echo "<br>";
+// echo user_id();
+// echo "<br>";
+// echo licenseid();
 ?>
