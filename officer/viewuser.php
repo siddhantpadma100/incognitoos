@@ -1,8 +1,8 @@
 <?php
 session_start();
-if(isset($_SESSION['admin_log']))
+if(isset($_SESSION['officer_log']))
 {
-if($_SESSION['admin_log']==1)
+if($_SESSION['officer_log']==1)
 { 
 ?>
   <!DOCTYPE html>
@@ -54,7 +54,7 @@ if($_SESSION['admin_log']==1)
   View Officer
     </div>
     <div class="panel-body">
-      <h2>MSME OFFICER</h2>
+      <h2>Users</h2>
       <table class="table table-bordered">
       <thead>
       <tr>

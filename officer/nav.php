@@ -29,7 +29,7 @@
                             
                             <li><a href="change.php">Change Password</a></li>
                             <li class="divider"></li>
-                            <li><a href="..\error.jsp">Logout</a></li>
+                            <li><a href="logout.php">Logout</a></li>
                         </ul>
                     </li>
                 </ul>

@@ -1,8 +1,8 @@
 <?php
 session_start();
-if(isset($_SESSION['admin_log']))
+if(isset($_SESSION['officer_log']))
 {
-if($_SESSION['admin_log']==1)
+if($_SESSION['officer_log']==1)
 { 
 ?>
    

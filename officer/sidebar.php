@@ -10,7 +10,7 @@
                             <div class="panel-body">
                                 <ul class="nav navbar-nav">
                                     
-                                    <li><a href="addofficer.php>">View Users</a></li>
+                                    <li><a href="viewuser.php">View Users</a></li>
                                     <li><a href="viewform.php">View Registration Forms </a></li>
                                     
                                 </ul>
