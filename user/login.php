@@ -75,7 +75,7 @@
                 <div class="row">
                     <div class="col-sm-3 col-md-3 ">
                        
-                          <img src="Images/logoba.png" hspace="1" vspace="1" />
+                          <img src="../lib/images/logoba.png" hspace="1" vspace="1" />
                      
                     </div>
                     <div class="col-sm-6 col-md-6 col-xs-6 hidden-xs">
@@ -92,7 +92,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3 col-md-3 col-xs-3 hidden-xs">
-                        <img alt="MSME" src="Images/swach-bharat.png" hspace="5" vspace="5" />
+                        <img alt="MSME" src="../lib/images/swach-bharat.png" hspace="5" vspace="5" />
                     </div>
                 </div>
             </div>
@@ -119,16 +119,16 @@
     <a href="" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i> &nbsp; Login via Gmail</a>
 	</p>
   <hr>
-  <form>
+  <form action="slogin.php" method="post" >
     <div class="form-group input-icon">
       <i class="fa fa-user"></i>
-        <input name="" class="form-control" placeholder="Email or login" type="email" required>
+        <input name="uname" class="form-control" placeholder="Email or login" type="email" required>
     </div> <!-- form-group// -->
 
     <div class="form-group input-icon">
       <i class="fa fa-lock"></i>
 
-        <input class="form-control" placeholder="******" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+        <input name="password" class="form-control" placeholder="******" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
     </div> <!-- form-group// -->  
 
     <div class="row">

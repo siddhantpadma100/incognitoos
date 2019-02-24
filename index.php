@@ -261,7 +261,7 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
                                 </div>
 								
                                 <div class="box-link">
-                                    <a href='officer/index.php'> <i class="fa fa-unlock-alt" aria-hidden="true"></i>Officer Login</a>
+                                    <a href='officer/login.php'> <i class="fa fa-unlock-alt" aria-hidden="true"></i>Officer Login</a>
                                 </div>
                                 
 								<div class="box-link">

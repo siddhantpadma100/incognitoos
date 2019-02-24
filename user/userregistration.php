@@ -77,30 +77,12 @@
         <span>OR</span>
     </p>
 
-    <form action="sregister.php" method="post">
-    Full Name:<br><input type="text" name="f_name" required><br>
-    
-    <br>Email id:<br><input type="text" name="email_id" required><br>
-    
-    <br>Mobile number:<br><input type="text" name="mob_no" required><br>
-
-    <br>Password:<br><input type="password" name="pwd" required><br>
-
-    <br>Repeat Password:<br><input type="password" name="rpwd" required><br>
-
-
-
-    <br><input type="submit" name="" value="Register" >
-
-</form>
-
-
-	<form>
+	<form action="sregister.php" method="post">
 	
 	<div class="form-group input-group">
 		<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="glyphicon glyphicon-user"></i> </span>
-		 Full Name: <input type="text" name="f_name" class="form-control" placeholder="Full name" required>
+		 Full Name: <input name="f_name" type="text"  class="form-control" placeholder="Full name" required>
 		</div>
     </div> <!-- form-group// -->
 	
@@ -108,7 +90,7 @@
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="glyphicon glyphicon-envelope"></i> </span>
 		 
-        <input name="" class="form-control" placeholder="Email address" type="email" required>
+        <input name="email_id" class="form-control" placeholder="Email address" type="email" required>
 		</div>
     </div> <!-- form-group// -->
 	
@@ -123,7 +105,7 @@
 		    <option value="2">+198</option>
 		    <option value="3">+701</option>
 		</select>
-    	<input name="" class="form-control" placeholder="Phone number" type="text" required>
+    	<input name="mob_no" class="form-control" placeholder="Phone number" type="text" required>
 		</div>
     </div> <!-- form-group// -->
 	
@@ -131,14 +113,14 @@
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="glyphicon glyphicon-lock"></i> </span>
 		
-        <input class="form-control" placeholder="Create password" type="password" required>
+        <input name="password" class="form-control" placeholder="Create password" type="password" required>
     </div>
     </div>	<!-- form-group// -->
     <div class="form-group input-group">
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="glyphicon glyphicon-lock"></i> </span>
 		
-        <input class="form-control" placeholder="Repeat password" type="password" required>
+        <input  class="form-control" placeholder="Repeat password" type="password" required>
 		</div>
     </div> <!-- form-group// -->  
 

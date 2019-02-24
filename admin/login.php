@@ -68,7 +68,7 @@ if ((a - document.myForm.email.value.lastIndexOf(".")) < 2)
                 <div class="row">
                     <div class="col-sm-3 col-md-3 ">
                        
-                          <img src="Images/logoba.png" hspace="1" vspace="1" />
+                          <img src="../lib/images/logoba.png" hspace="1" vspace="1" />
                      
                     </div>
                     <div class="col-sm-6 col-md-6 col-xs-6 hidden-xs">
@@ -85,7 +85,7 @@ if ((a - document.myForm.email.value.lastIndexOf(".")) < 2)
                         </div>
                     </div>
                     <div class="col-sm-3 col-md-3 col-xs-3 hidden-xs">
-                        <img alt="MSME" src="Images/swach-bharat.png" hspace="5" vspace="5" />
+                        <img alt="MSME" src="../lib/images/swach-bharat.png" hspace="5" vspace="5" />
                     </div>
                 </div>
             </div>
