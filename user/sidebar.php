@@ -9,7 +9,7 @@
                         <div id="dropdown-lvl2" class="panel-collapse collapse">
                             <div class="panel-body">
                                 <ul class="nav navbar-nav">
-                                    <li><a href="acad.jsp">Apply for Certificate</a></li>
+                                    <li><a href="licregform/cerreg.php">Apply for Certificate</a></li>
                                     <li><a href="dept.jsp">Update Certificate</a></li>
                                     
                                 </ul>
