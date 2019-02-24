@@ -8,23 +8,23 @@ else
 }
 
 $username=$_POST['uname'];//username
-$passwordname=$_POST['password'];//password 
+$password=$_POST['password'];//password 
 
 
 
 //mysqli("localhost","username of database","password of database","database name")
 
-$sql="SELECT * FROM `admin` WHERE `userid`='$username' && `password`='$passwordname'";
+$sql="SELECT * FROM `login_admin` WHERE `email_id`='$username' && `password`='$password'";
 
 $result=mysqli_query($con,$sql);
 $count=mysqli_num_rows($result);
 $row=mysqli_fetch_array($result);
 do{
-	if(isset($row['userid']))
+	if(isset($row['email_id']))
 	{
-		if($row['userid']==$username)
+		if($row['email_id']==$username)
 		{
-			if($row['password']==$passwordname)
+			if($row['password']==$password)
 			{	
 
 				session_start();
