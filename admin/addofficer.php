@@ -28,7 +28,7 @@ if($_SESSION['admin_log']==1)
           });  
    </script>
 <style type="text/css">
-  
+    
 </style>
     </head>
  <body> 
@@ -63,17 +63,17 @@ if($_SESSION['admin_log']==1)
 
     <div class="col-md-4">
 
-  <div class="well well-sm active"  >
+  <div class="well well-sm alert alert-info"  style="background-color: #E6E6E6">
 
 <form  action="sregister.php" method="post" class="form-horizontal">
 <div class="form-group">
-<label for="first_name" class="col-xs-3 control-label">First Name</label>
+<label for="first_name" class="col-xs-3 control-label">Name</label>
 <div class="col-xs-9">
 <input type="text"  class="form-control" name="f_name" required>
 </div>
 </div>
 <div class="form-group">
-<label for="last_name" class="col-xs-3 control-label">Last Name</label>
+<label for="last_name" class="col-xs-3 control-label">Surname</label>
 <div class="col-xs-9">
 <input type="text"  class="form-control" name="l_name" required>
 </div>
