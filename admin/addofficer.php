@@ -49,27 +49,62 @@
     <div class="panel-heading">
   <h1>Welcome</h1> 
 
-<form action="sregister.php" method="post">
-  First Name:<br><input type="text" name="f_name" required><br>
-  
-  <br>Last Name:<br><input type="text" name="l_name" required><br>
-  
-  <br>Email id:<br><input type="text" name="email_id" required><br>
-  
-  <br>Mobile number:<br><input type="text" name="mob_no" required><br>
+  <div class="container">
+  <div class="row">
 
-  <br>Password:<br><input type="password" name="pwd" required><br>
 
-  <br>Repeat Password:<br><input type="password" name="rpwd" required><br>
+    <div class="col-md-2">
+    </div>
 
-  <br>
-  <button class="btn btn-primary">add</button>
+    <div class="col-md-4">
 
+  <div class="well well-sm active"  >
+
+<form  action="sregister.php" method="post" class="form-horizontal">
+<div class="form-group">
+<label for="first_name" class="col-xs-3 control-label">First Name</label>
+<div class="col-xs-9">
+<input type="text"  class="form-control" name="f_name" required>
+</div>
+</div>
+<div class="form-group">
+<label for="last_name" class="col-xs-3 control-label">Last Name</label>
+<div class="col-xs-9">
+<input type="text"  class="form-control" name="l_name" required>
+</div>
+</div>
+
+<div class="form-group">
+<label for="last_name" class="col-xs-3 control-label">Email id</label>
+<div class="col-xs-9">
+<input type="text"  class="form-control"  name="email_id" required>
+</div>
+</div>
+
+<div class="form-group">
+<label for="last_name" class="col-xs-3 control-label">Password:</label>
+<div class="col-xs-9">
+<input type="password"  class="form-control" name="pwd" required>
+</div>
+</div>
+
+<div class="form-group">
+<label for="last_name" class="col-xs-3 control-label">Repeat Password:</label>
+<div class="col-xs-9">
+<input type="password"   class="form-control" name="rpwd" required>
+</div>
+</div>
+
+<div class="form-group">
+<div class="col-xs-offset-4 col-xs-9">
+<button type="submit" class="btn btn-primary ">Add User</button>
+</div>
+</div>
 </form>
 
-
-
-
+</div>
+    </div>
+</div>
 
     </div>
     <div class="panel-body">
