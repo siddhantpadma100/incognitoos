@@ -4,6 +4,12 @@
 	<b>Welcome</b>
 <?php
 include "../../config.php";
+
+
+if(!file_exists($directory)) {
+mkdir($directory, 0777, true);
+}
+
 $aadhar_no=$_POST['aadhar_no'];
 $e_name=$_POST['e_name'];
 $category=$_POST['category'];
