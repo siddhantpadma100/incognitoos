@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-
 <html>
-
-
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <!--start of head-->
 <head>
@@ -201,10 +198,7 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
                         </div>
 						
                     <div class="col-md-6 col-xs-12 col-custom-m">
-					
-
-
-
+		
 <script type="text/javascript">
 
 </script>
@@ -263,7 +257,7 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
                                 </div>
 								
                                 <div class="box-link">
-                                    <a href='userregistration.php'> <i class="fa fa-id-badge" aria-hidden="true"></i>New Registration of user</a>
+                                    <a href='user/userregistration.php'> <i class="fa fa-id-badge" aria-hidden="true"></i>New Registration of user</a>
                                 </div>
 								
                                 <div class="box-link">
@@ -271,11 +265,11 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
                                 </div>
                                 
 								<div class="box-link">
-                                    <a href='adminlogin.php'> <i class="fa fa-unlock-alt" aria-hidden="true"></i>Admin Login</a>
+                                    <a href='admin/login.php'> <i class="fa fa-unlock-alt" aria-hidden="true"></i>Admin Login</a>
                                 </div>
 								
 								<div class="box-link">
-                                    <a href='userlogin.php'> <i class="fa fa-unlock-alt" aria-hidden="true"></i>User Login</a>
+                                    <a href='user/login.php'> <i class="fa fa-unlock-alt" aria-hidden="true"></i>User Login</a>
 						
                                 </div>
 								
