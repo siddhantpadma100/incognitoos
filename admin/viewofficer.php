@@ -71,15 +71,12 @@ if($_SESSION['admin_log']==1)
 		echo "<td>".$row ['f_name'].$row['l_name']."</td>";
 		echo "<td>".$row['email_id']."</td>";
 		echo "<td>".$row['mob_no']."</td>";
-		echo "<td><button class='btn btn-sucess'>Block</button></td>";
+		echo "<td><button class='btn btn-sucess'>Block</button> <button class='btn btn-sucess'>Delete</button></td>";
 		echo "</tr>";
+		$i++;
 		}
         ?>
         </table>
-
-
-
-
     </div>
 </div>
         </div>
