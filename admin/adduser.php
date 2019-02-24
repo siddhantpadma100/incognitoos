@@ -1,10 +1,16 @@
 
-   
+   <?php
+session_start();
+if(isset($_SESSION['admin_log']))
+{
+if($_SESSION['admin_log']==1)
+{ 
+?>
   <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Add User</title>
         <link href="../lib/css/dashboard.css" rel="stylesheet" id="bootstrap-css">
       
       <script src="lib/jquery-3.2.1.min.js">
@@ -85,3 +91,18 @@
     </body>    
 </html>
 
+<?php
+}
+else
+{
+
+echo "please login";
+header("refresh:1;url=login.php");
+}
+}
+else
+{
+  echo "please login";
+header("refresh:1;url=login.php");
+}
+?>
