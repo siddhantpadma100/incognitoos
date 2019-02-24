@@ -126,7 +126,7 @@ if ((a - document.myForm.email.value.lastIndexOf(".")) < 2)
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
-                <buttossn type="submit" class="btn btn-primary btn-block"> Login  </button>
+                <button type="submit" class="btn btn-primary btn-block"> Login  </button>
             </div> <!-- form-group// -->
         </div>
         <div class="col-md-6 text-right">
