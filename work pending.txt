@@ -1,4 +1,4 @@
 1.Email code  for registration & forgot password otp 
 2.Main index page  orginial map needed 
 3.translate whole website into at leat two lang
-4.
+4.officer can add scheme 
