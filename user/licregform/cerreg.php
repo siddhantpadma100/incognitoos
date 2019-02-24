@@ -30,14 +30,7 @@
 			<div class="col-md-12">
 				<h1>Registration Form</h1>
 			</div>
-<<<<<<< HEAD
-
-    
-
-            <form method="post" action="">
-=======
             <form method="post" action="sregister.php" enctype="multipart/form-data">
->>>>>>> c15d57afcc9c92cc5ea1ee063c1de491cda6afd5
             	<div class="row">
             		<div class="col-md-12">
             			<div class="">
@@ -57,11 +50,7 @@
             			<div class="">
             				<label>3. Social Category</label>
             				<br>
-<<<<<<< HEAD
-            				<select  class="form-control"  name="social_category" style="width:70%;height: 40px;" required>
-=======
             				<select class="form-control"  name="category" style="width:70%;height: 40px;" required>
->>>>>>> c15d57afcc9c92cc5ea1ee063c1de491cda6afd5
             					<option value="">Select Social Category</option>
                                 <option value="General">General</option>
                                 <option value="SC">SC</option>

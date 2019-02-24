@@ -27,7 +27,7 @@
                             <li class="divider"></li>
                             <li><a href="acad.jsp">Change profile</a></li>
                             <li class="divider"></li>
-                            <li><a href="dept.jsp">Logout</a></li>
+                            <li><a href="logout.php">Logout</a></li>
                             <li class="divider"></li>                            
                             
                         </ul>
