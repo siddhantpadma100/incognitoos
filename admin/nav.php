@@ -20,26 +20,16 @@
                 
                 <li class="dropdown ">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                        Menu
+                        Profile
                         <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li class="active"><a href="index.jsp">Dashboard</a></li>
+                            <li class="active"><a href="index.jsp">Change password</a></li>
                             <li class="divider"></li>
-                            <li><a href="acad.jsp">Register for certificate</a></li>
+                            <li><a href="acad.jsp">Change profile</a></li>
                             <li class="divider"></li>
-                            <li><a href="dept.jsp">Department-wise report</a></li>
+                            <li><a href="dept.jsp">Logout</a></li>
                             <li class="divider"></li>                            
-                            <li><a href="insti.jsp">Institute-wise report</a></li>
-                            <li class="divider"></li>
-                            <li><a href="closing.jsp">Closing stock</a></li>
-                            <li class="divider"></li>
-                            <li><a href="gen.jsp">Generate requirement</a></li>
-                            <li class="divider"></li>
-                            <li><a href="additem.jsp">Add item</a></li>
-                            <li class="divider"></li>
-                            <li><a href="deleteitem.jsp">Delete Item</a></li>
-                            <li class="divider"></li>
-                            <li><a href="..\error.jsp">Logout</a></li>
+                            
                         </ul>
                     </li>
                 </ul>
