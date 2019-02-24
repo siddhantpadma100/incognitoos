@@ -39,7 +39,7 @@
 
   <br>Investment:<br><input type="text" name="investment" required><br>
 
-  <br>Attachment:<br><input type="file" name="attachment" required><br>
+  <br>Attachment: incometax<br><input type="file" name="attachment" required><br>
 
   <br><input type="submit" name="" value="Register" >
 
