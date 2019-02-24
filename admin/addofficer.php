@@ -30,7 +30,7 @@
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 
-<?php include "nav.php"?>
+<?php include "nav.php";?>
 
 
 <!------ Include the above in your HEAD tag ---------->
@@ -40,7 +40,7 @@
     <!-- uncomment code for absolute positioning tweek see top comment in css -->
     <div class="absolute-wrapper"> </div>
     <!-- Menu -->
-  <?php include "sidebar.php"?>
+  <?php include "sidebar.php";?>
 </div>          </div>
         <div class="col-md-10 content">
               <div class="panel panel-default">
