@@ -58,34 +58,22 @@ if($_SESSION['admin_log']==1)
       <table class="table table-bordered">
       <thead>
       <tr>
-          <td>Sr.</td><td> Items</td><td>Quantity</td><td>Total Quantity</td>
+          <td>Sr.</td><td>Name</td><td>Email</td><td>Phone</td><td>Action</td>
       </tr>
     </thead><tbody>
-        <%
-        while(a.next())
-           {
-              %>
-              <tr><td>
-                <%       out.println(i);%>
-              </td><td>
-                  <% 
-                    out.println(a.getString("items"));
-                  %>
-                </td> <td>
-                    <%
-                      out.println(a.getString("qty"));
-                    %>
-              </td><td>
-                  <% 
-                    out.println(a.getString("tqty"));
-                  %>
-                </td>
-              </tr>      
-             <%  
-             i++;   
-           }
-  
-        %>
+        <?php
+       include "../config.php";
+       $i=1;
+       $result=mysqli_query($con,"SELECT * FROM `login_officer`");
+		while ($row=mysqli_fetch_array($result)){
+		echo $row ['f_name'].$row['l_name'];
+		echo $row['email_id'];
+		echo $row['mob_no'];
+
+
+		}
+
+        ?>
         </table>
 
 

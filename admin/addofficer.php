@@ -85,7 +85,12 @@ if($_SESSION['admin_log']==1)
 <input type="text"  class="form-control"  name="email_id" required>
 </div>
 </div>
-
+<div class="form-group">
+<label for="last_name" class="col-xs-3 control-label">Mobile No:</label>
+<div class="col-xs-9">
+<input type="number" class="form-control" name="mob_no" required>
+</div>
+</div>
 <div class="form-group">
 <label for="last_name" class="col-xs-3 control-label">Password:</label>
 <div class="col-xs-9">
