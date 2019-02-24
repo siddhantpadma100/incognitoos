@@ -17,7 +17,7 @@
                             </div>
                         </div>
                     </li>
-                    <li><a href="classify.jsp">Classify business</a></li>
+                    <li><a href="classify.php">Classify business</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>
