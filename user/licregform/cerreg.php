@@ -30,75 +30,27 @@
 			<div class="col-md-12">
 				<h1>Registration Form</h1>
 			</div>
-
-      <form action="sregister.php" method="post">
-  Aadhar no:<br><input type="text" name="aadhar_no" required><br>
-  
-  <br>Name of Entrepreneur:<br><input type="text" name="e_name" required><br>
-  
-  <br>Category:<br><input type="text" name="category" required><br>
-  
-  <br>Gender:<br><input type="text" name="gender" required><br>
-
-  <br>Physically Handicapped:<br><input type="text" name="physi_handy" required><br>
-
-  <br>Business name:<br><input type="text" name="b_name" required><br>
-
-  <br>Organization Type:<br><input type="text" name="org_type" required><br>
-
-  <br>PAN no:<br><input type="text" name="pan_no" required><br>
-
-  <br>Plant Address:<br><input type="text" name="plant_address" required><br>
-
-  <br>Office Address:<br><input type="text" name="office_address" required><br>
-
-  <br>Mobile no:<br><input type="text" name="mob_no" required><br>
-
-  <br>Email id:<br><input type="text" name="email_id" required><br>
-
-  <br>Commence date:<br><input type="text" name="commence_date" required><br>
-
-  <br>Account no:<br><input type="text" name="acc_no" required><br>
-
-  <br>IFSC:<br><input type="text" name="ifsc" required><br>
-
-  <br>Business Activity:<br><input type="text" name="business_activity" required><br>
-
-  <br>NIC:<br><input type="text" name="nic" required><br>
-
-  <br>Business Details:<br><input type="text" name="business_details" required><br>
-
-  <br>No of employees:<br><input type="text" name="no_of_emp" required><br>
-
-  <br>Investment:<br><input type="text" name="investment" required><br>
-
-  <br>Attachment:<br><input type="text" name="attachment" required><br>
-
-  <br><input type="submit" name="" value="Register" >
-
-</form>
-
-            <form method="post" action="">
+            <form method="post" action="sregister.php" enctype="multipart/form-data">
             	<div class="row">
             		<div class="col-md-12">
             			<div class="">
             				<label>1. Aadhaar Number</label>
             				<br>
-            				<input class="form-control" type="text" style="width:70%;height: 40px;" name="aadhaar_no" maxlength="12" placeholder="Aadhaar Number" required>
+            				<input class="form-control" type="text" style="width:70%;height: 40px;" name="aadhar_no" maxlength="12" placeholder="Aadhaar Number" required>
             			</div>
             		</div>
             		<div class="col-md-12">
             			<div class="">
             				<label>2. Name of Entrepreneur /Applicant as printed on Aadhaar Card</label>
             				<br>
-            				<input class="form-control" type="text" name="applicant_name" maxlength="70" placeholder="Name of Entrepreneur /Applicant as printed on Aadhaar Card" style="width:70%;height: 40px;" required>
+            				<input class="form-control" type="text" name="e_name" maxlength="70" placeholder="Name of Entrepreneur /Applicant as printed on Aadhaar Card" style="width:70%;height: 40px;" required>
             			</div>
             		</div>
             		<div class="col-md-12">
             			<div class="">
             				<label>3. Social Category</label>
             				<br>
-            				<select class="form-control"  name="social_category" style="width:70%;height: 40px;" required>
+            				<select class="form-control"  name="category" style="width:70%;height: 40px;" required>
             					<option value="">Select Social Category</option>
                                 <option value="General">General</option>
                                 <option value="SC">SC</option>
@@ -122,7 +74,7 @@
             			<div class="">
             				<label>5. Physically handicapped</label>
             				<br>
-            				<select class="form-control" name="physically_handicapped" style="width:70%;height: 40px;" required>
+            				<select class="form-control" name="physi_handy" style="width:70%;height: 40px;" required>
             					<option selected="selected" value="">Select Any</option>
             					<option value="yes">Yes</option>
             					<option value="no">No</option>
@@ -133,14 +85,14 @@
             			<div class="">
             				<label>6. Name of Enterprise / Business</label>
             				<br>
-            				<input class="form-control" type="text" name="enterprise_name" maxlength="200" placeholder="Name of Enterprise / Business" style="width:70%;height: 40px;" required>
+            				<input class="form-control" type="text" name="b_name" maxlength="200" placeholder="Name of Enterprise / Business" style="width:70%;height: 40px;" required>
             			</div>
             		</div>
             		<div class="col-md-12">
             			<div class="">
             				<label>7. Type of Organisation</label>
             				<br>
-            				<select class="form-control" name="organisation_type" style="width:70%;height: 40px;" required>
+            				<select class="form-control" name="org_type" style="width:70%;height: 40px;" required>
                                 <option value="">Select Type of Organisation</option>
                                 <option value="Proprietorship Firm">Proprietorship Firm</option>
                                 <option value="Hindu Undivided Family">Hindu Undivided Family</option>
@@ -160,7 +112,7 @@
                             <label class="text-left">8. PAN </label>
                             
                             <br>
-                            <input class="form-control" type="text" placeholder="PAN" name="pan" maxlength="10" style="width:70%;height: 40px;" required>
+                            <input class="form-control" type="text" placeholder="PAN" name="pan_no" maxlength="10" style="width:70%;height: 40px;" required>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -171,25 +123,25 @@
                     </div>
                     <div class="col-md-12">
                         <div class="">
-                            <input class="form-control" type="text" name="plant_add" maxlength="200" placeholder="Flat / Door No." style="width:70%;height: 40px;" required>
+                            <input class="form-control" type="text" name="plant_address" maxlength="200" placeholder="Flat / Door No." style="width:70%;height: 40px;" required>
                             <br>
                         </div>
                     </div>
                     <div class="col-md-12">
                        <div class="">                                         
-                       <input class="form-control" type="text"  placeholder="Name of Premise / Building" name="name_of_building_premise" maxlength="200" style="width:70%;height: 40px;" required>
+                       <input class="form-control" type="text"  placeholder="Name of Premise / Building" name="build_name" maxlength="200" style="width:70%;height: 40px;" required>
                        <br>
                        </div>
                     </div>
                     <div class="col-md-12">
                        <div class="">                                         
-                       <input class="form-control" type="text" placeholder="Road/ Street" name="road_street" maxlength="200" style="width:70%;height: 40px;" required>
+                       <input class="form-control" type="text" placeholder="Road/ Street" name="road_name" maxlength="200" style="width:70%;height: 40px;" required>
                        <br>
                        </div>
                     </div>
                     <div class="col-md-12">
                        <div class="">                                         
-                       <input class="form-control" type="text" placeholder="Area / Locality" name="area_locality" maxlength="200" style="width:70%;height: 40px;" required>
+                       <input class="form-control" type="text" placeholder="Area / Locality" name="area_name" maxlength="200" style="width:70%;height: 40px;" required>
                        <br>
                        </div>
                     </div>
@@ -201,7 +153,7 @@
                     </div>
                     <div class="col-md-12">
                        <div class="">                                         
-                       <input class="form-control" type="text" placeholder="PIN" name="pin"  maxlength="6" style="width:70%;height: 40px;" required>
+                       <input class="form-control" type="text" placeholder="PIN" name="pin_code"  maxlength="6" style="width:70%;height: 40px;" required>
                        <br>
                        </div>
                     </div>
@@ -251,7 +203,7 @@
                     <div class="col-md-12">
                        <div class="form-group">                                         
                         <br>
-                        <input class="form-control" type="text" class="" placeholder="District" name="district_name" style="width:70%;height: 40px;" required>
+                        <input class="form-control" type="text" class="" placeholder="District" name="dist_name" style="width:70%;height: 40px;" required>
                         
                                                         
                        </div>
@@ -260,42 +212,42 @@
                        <div class="form-group">
                            <label>10. Mobile No</label>
                            <br>
-                           <input class="form-control" type="text" placeholder="Mobile No." name="mobile_no" maxlength="10" style="width:70%;height: 40px;" required>
+                           <input class="form-control" type="text" placeholder="Mobile No." name="mob_no" maxlength="10" style="width:70%;height: 40px;" required>
                        </div>
                     </div>
                     <div class="col-md-12">
                        <div class="form-group">
                          <label class="text-left">11. Email ID</label>
                          <br>
-                         <input class="form-control" type="email" placeholder="Email ID" name="email" maxlength="70" style="width:70%;height: 40px;" required>
+                         <input class="form-control" type="email" placeholder="Email ID" name="email_id" maxlength="70" style="width:70%;height: 40px;" required>
                        </div>
                     </div>
                     <div class="col-md-12">
                        <div class="form-group">
                          <label>12. Date of Commencement of Business</label>
                          <br>
-                         <input class="form-control" type="date" name="commencement_date" value="YYYY-MM-DD" pattern="[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])" style="width:70%;height: 40px;" required>
+                         <input class="form-control" type="date" name="commence_date" value="YYYY-MM-DD" pattern="[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])" style="width:70%;height: 40px;" required>
                        </div>
                     </div>
                     <div class="col-md-12">
                        <div class="form-group">
                          <label >13. Bank Account Number</label>
                          <br>
-                         <input class="form-control" type="text" placeholder="Bank Account Number" name="bank_ac_number"  maxlength="20" style="width:70%;height: 40px;" required>
+                         <input class="form-control" type="text" placeholder="Bank Account Number" name="acc_no"  maxlength="20" style="width:70%;height: 40px;" required>
                        </div>
                     </div>
                     <div class="col-md-12">
                        <div class="form-group">
                           <label class="text-left">14. IFSC Code</label>
                           <br>
-                          <input class="form-control" type="text" placeholder="IFSC Code" name="ifsc_code"  maxlength="20" style="width:70%;height: 40px;" required>
+                          <input class="form-control" type="text" placeholder="IFSC Code" name="ifsc"  maxlength="20" style="width:70%;height: 40px;" required>
                        </div>
                     </div>
                     <div class="col-md-12">
                         <div class="form-group">
                            <label>15. Main Business Activity of Enterprise</label>
                            <br>
-                           <select class="form-control"  name="main_business_activity" style="width:70%;height: 40px;" required>
+                           <select class="form-control"  name="business_activity" style="width:70%;height: 40px;" required>
                         <option value="">Select Activity of Enterprise</option>
                         <option value="Manufacturer">Manufacturer</option>
                         <option value="Service provider">Service provider</option>
@@ -307,7 +259,7 @@
                            <label class="text-left">16. NIC 2 Digit Code -  Choose primary Business Activity</label>
                            <br>
                         <div>
-                        <input type="text" class="form-control" placeholder="first select Main Business Activity of Enterprise" class="form-control" name="NIC2_primary_business_activity" style="width:70%;height: 40px;" required>               
+                        <input type="text" class="form-control" placeholder="first select Main Business Activity of Enterprise" class="form-control" name="nic" style="width:70%;height: 40px;" required>               
                         </div>
                      
                         </div>
@@ -316,7 +268,7 @@
                         <div class="form-group">
                           <label class="text-left">17. Additional details about Business</label>
                           <br>
-                          <input type="text" class="form-control" placeholder="Additional details " name="additional_details" id="additional_details" value="" style="width:70%;height: 40px;" required>
+                          <input type="text" class="form-control" placeholder="Additional details " name="no_of_emp" id="additional_details" value="" style="width:70%;height: 40px;" required>
                         </div>
                     </div>
                              
@@ -324,33 +276,32 @@
                           <div class="form-group">
                             <label class="text-left">18. Number of employees</label>
                             <br>
-                            <input type="text" class="form-control" placeholder="Number of employees" name="number_of_employees" style="width:70%;height: 40px;" required>
+                            <input type="text" class="form-control" placeholder="Number of employees" name="investment" style="width:70%;height: 40px;" required>
                        </div>
                     </div>
                     <div class="col-md-12">
                        <div class="form-group">
                          <label>19. Investment in Plant and Machinery (Amount in Lacs)</label>
                          <br>
-                          <input type="text" class="form-control" placeholder="Investment" name="Investment" id="Investment" value="" style="width:70%;height: 40px;" required>
+                          <input type="text" class="form-control" placeholder="Investment" name="attachment" id="Investment" value="" style="width:70%;height: 40px;" required>
                           
                        </div>
                     </div>
                     <div class="col-md-12">
                         <div class="">
                           <label>20. Attachment : (jpg,png file &lt; 500KB) </label>
-                          <br>
-                          <button style="width:70%;height: 40px; background-color:">
-                           (Attach Scan copy of aadhar card) or Update later 
-                          </button>
+                          
+                          <input type="file" placeholder="(Attach Scan copy of aadhar card) or Update later">
+                            
+                          
                           <br>
 
-                          <span class="top-10" style="color: #1c3155;">
-                          <i class="fa fa-send-o" style="font-size:17px"></i>           
-                                                   
-                          </span>
+                          
                                                              
                         </div>
                     </div>
+                    <input type="submit" name="" value="Register" style="width:70%;height: 40px;">
+                    <br>
             	</div>
             </form>
 		</div>
