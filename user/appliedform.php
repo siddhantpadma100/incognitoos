@@ -67,7 +67,9 @@ if($_SESSION['user_log']==1)
         <?php
        include "../config.php";
        $i=1;
-       $result=mysqli_query($con,"SELECT * FROM `reg_form`");
+
+       $id=$_SESSION['user_id'];
+       $result=mysqli_query($con,"SELECT * FROM `reg_form` where `u_id`='$id'");
     while ($row=mysqli_fetch_array($result)){
     echo "<tr>";
     echo "<td>".$i."</td> ";
