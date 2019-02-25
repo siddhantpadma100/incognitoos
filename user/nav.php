@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <nav class="navbar navbar-default navbar-static-top">
     <div class="container-fluid">
@@ -38,6 +39,9 @@
         </div><!-- /.container-fluid -->
     </nav> 
 
+=======
+
+>>>>>>> 726b07b201c87e660f8b205aae2c659babe75399
   <!--Navbar Start -->
   <div style="background-color:#33BEFF; text-align: center">
                 <div class="row">
@@ -65,6 +69,9 @@
                 </div>
             </div>
             <br>
+<<<<<<< HEAD
     
   <!-- Navbar End -->
 
+=======
+>>>>>>> 726b07b201c87e660f8b205aae2c659babe75399
