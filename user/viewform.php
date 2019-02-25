@@ -13,6 +13,19 @@
   </style>
 </head>
 <body>
+
+  <!--Start::language Translation--> 
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- end::language Translation -->
+  
     <?php
     session_start();
 if(isset($_SESSION['officer_log']))

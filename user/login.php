@@ -23,6 +23,19 @@
     <title>User Login</title>
   </head>
   <body>
+
+    <!--Start::language Translation--> 
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- end::language Translation -->
+    
 	<!--Navbar Start -->
 	<div style="background-color:#33BEFF; text-align: center">
                 <div class="row">
@@ -73,20 +86,20 @@
 	</p>
   <hr>
   <form action="slogin.php" method="post" >
-    <div class="form-group input-icon">
+    <div class>
       <i class="fa fa-user"></i>
-        <input name="uname" class="form-control" placeholder="Email or login" type="email" required>
+        <input name="uname" class="form-control" placeholder="Email or login" type="text" required>
     </div> <!-- form-group// -->
 
-    <div class="form-group input-icon">
+    <div>
       <i class="fa fa-lock"></i>
 
-        <input name="password" class="form-control" placeholder="******" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+        <input name="password" class="form-control" placeholder="******" type="password" required>
     </div> <!-- form-group// -->  
 
     <div class="row">
         <div class="col-md-6">
-            <div class="form-group">
+            <div>
                 <button type="submit" class="btn btn-primary btn-block"> Login  </button>
             </div> <!-- form-group// -->
         </div>

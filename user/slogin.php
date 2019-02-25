@@ -3,7 +3,9 @@ include "../config.php";
 if((isset($_POST['uname'])) && (isset($_POST['password']))  ){}
 else
 {
-			echo "please fill proper details";
+			echo '<script language="javascript">';
+			echo 'alert("Please Login!!!")';
+			echo '</script>';
 			header("refresh:1;url=index.php");// 
 }
 
@@ -46,7 +48,9 @@ do{
 	}
 	else
 		{
-			echo "please fill proper details";
+			echo '<script language="javascript">';
+			echo 'alert("Invalid Credentials!!!")';
+			echo '</script>';
 			header("refresh:1;url=../index.php");// it takes 2 sec to go index page
 		}	
 }while ($row=mysqli_fetch_array($result));
