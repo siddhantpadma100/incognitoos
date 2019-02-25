@@ -42,7 +42,7 @@ if($_SESSION['user_log']==1)
 
 
 
-<?php include "../nav.php";?>
+<?php include "nav.php";?>
 
     <div class="container-fluid main-container">
         <div class="col-md-2 sidebar">
@@ -50,12 +50,13 @@ if($_SESSION['user_log']==1)
     <!-- uncomment code for absolute positioning tweek see top comment in css -->
     <div class="absolute-wrapper"> </div>
     <!-- Menu -->
-<?php include "../sidebar.php";?>
+<?php include "sidebar.php";?>
 </div>          </div>
         <div class="col-md-10 content">
               <div class="panel panel-default">
     <div class="panel-heading">
-  Applied Form  </div>
+  Welcome 
+    </div>
     <div class="panel-body">
       <h2>shceme</h2>
   <br>
@@ -76,12 +77,12 @@ else
 {
 
 echo "please login";
-header("refresh:1;url=../login.php");
+header("refresh:1;url=login.php");
 }
 }
 else
 {
   echo "please login";
-header("refresh:1;url=../login.php");
+header("refresh:1;url=login.php");
 }
 ?>
