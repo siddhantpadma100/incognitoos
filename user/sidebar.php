@@ -18,7 +18,7 @@
                         </div>
                     </li>
 
-                     <li><a href="../grievance/register.php">Grievance</a></li>
+                     <li><a href="grievregister.php">Grievance</a></li>
                     <li><a href="gen.jsp">Notifications</a></li>
                     <li><a href="logout.php">Logout</a></li>
 
