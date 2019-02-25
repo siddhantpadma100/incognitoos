@@ -20,7 +20,7 @@
     }
 </style>
 
-    <title>Admin Login</title>
+    <title>User Login</title>
   </head>
   <body>
 	<!--Navbar Start -->
