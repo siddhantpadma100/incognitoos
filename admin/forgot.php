@@ -15,6 +15,15 @@
 
 </script>
 
+<style>
+.footer {
+
+   background-color:#1EACCF;
+   color: white;
+   text-align: center;
+}
+</style>
+
 
     <title>Admin Login</title>
   </head>
@@ -95,6 +104,12 @@
    <div class="col-md-4">
     
   </div>
+  <br>
+  <br>
+  <br>
+
+   <?php include "footer.php";?>
+
 
   </body>
 </html>

@@ -1,9 +1,9 @@
 
    <?php
 session_start();
-if(isset($_SESSION['admin_log']))
+if(isset($_SESSION['user_log']))
 {
-if($_SESSION['admin_log']==1)
+if($_SESSION['user_log']==1)
 { 
 ?>
   <!DOCTYPE html>
@@ -55,10 +55,14 @@ if($_SESSION['admin_log']==1)
         <div class="col-md-10 content">
               <div class="panel panel-default">
     <div class="panel-heading">
-  Welcome 
+   
     </div>
     <div class="panel-body">
+<<<<<<< HEAD
+      <h2></h2>
+=======
       <h2>shceme</h2>
+>>>>>>> ad8868d678bc68c147a7065cc757e23d5f0fbd76
   <br>
     </div>
 </div>

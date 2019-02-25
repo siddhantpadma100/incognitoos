@@ -28,7 +28,8 @@ do{
 				session_start();
 				echo "Login success";
 				$_SESSION['officer_log']=1;
-				$_SESSION['officer']="admin";
+				$_SESSION['officer']="officer";
+				$_SESSION['officer_id']="o_id";
 				header("refresh:1;url=index.php");	
 			}
 			else{

@@ -14,6 +14,12 @@
 </head>
 <body>
     <?php
+    session_start();
+if(isset($_SESSION['officer_log']))
+{
+if($_SESSION['officer_log']==1)
+{ 
+
 if(isset($_GET['id']))
 {
 include "../config.php";
@@ -68,20 +74,7 @@ $result=mysqli_query($con,"SELECT * FROM `reg_form` where `id`=$id");
       <tr>
         <th>ID :<?php echo $row ['id']; ?> </th>
         <td> </td>
-       
-		
-
-
-
-
  
-
-
-
-
-
-
-
 	
       </tr>
     <tr>
@@ -198,5 +191,7 @@ else
 	echo "Something is wrong";
 }
 ?>
+
+ <?php include "footer.php";?>
 </body>
 </html>
