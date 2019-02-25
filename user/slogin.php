@@ -29,8 +29,8 @@ do{
 
 				session_start();
 				echo "Login success";
-				$_SESSION['admin_log']=1;
-				$_SESSION['admin']="admin";
+				$_SESSION['user_log']=1;
+				$_SESSION['user']="admin";
 				header("refresh:1;url=index.php");	
 			}
 			else{
