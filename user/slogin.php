@@ -30,7 +30,8 @@ do{
 				session_start();
 				echo "Login success";
 				$_SESSION['user_log']=1;
-				$_SESSION['user']="admin";
+				$_SESSION['user']="user";
+				$_SESSION['user_id']=$row['u_id'];
 				header("refresh:1;url=index.php");	
 			}
 			else{
