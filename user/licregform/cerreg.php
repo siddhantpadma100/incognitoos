@@ -268,7 +268,7 @@
                         <div class="form-group">
                           <label class="text-left">17. Additional details about Business</label>
                           <br>
-                          <input type="text" class="form-control" placeholder="Additional details " name="no_of_emp" id="additional_details" value="" style="width:70%;height: 40px;" required>
+                          <input type="text" class="form-control" placeholder="Additional details " name="business_details" id="additional_details" value="" style="width:70%;height: 40px;" required>
                         </div>
                     </div>
                              
@@ -291,7 +291,7 @@
                         <div class="">
                           <label>20. Attachment : (jpg,png file &lt; 500KB) </label>
                           
-                          <input type="file" placeholder="(Attach Scan copy of aadhar card) or Update later">
+                          <input type="file" name="attachment" placeholder="(Attach Scan copy of aadhar card) or Update later">
                             
                           
                           <br>
