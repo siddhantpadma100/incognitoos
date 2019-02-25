@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <nav class="navbar navbar-default navbar-static-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -38,7 +38,6 @@
         </div><!-- /.container-fluid -->
     </nav> 
 
-=======
   <!--Navbar Start -->
   <div style="background-color:#33BEFF; text-align: center">
                 <div class="row">
@@ -68,4 +67,4 @@
             <br>
     
   <!-- Navbar End -->
->>>>>>> ad8868d678bc68c147a7065cc757e23d5f0fbd76
+
