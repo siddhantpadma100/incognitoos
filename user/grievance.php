@@ -44,7 +44,7 @@
               <div class="panel panel-default">
                  <div class="panel-heading"><h2>Grievance Form</h2></div>
                    <div class="panel-body">
-                    <form action="sregister.php" method="post">
+                    <form action="sgrievance.php" method="post">
 	                    <h3>Fill the Details</h3>
 	                    <br>
     <p class="hint-text"></p>

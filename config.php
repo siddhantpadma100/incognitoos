@@ -6,7 +6,6 @@ $user="root";
 $password="";
 $con=mysqli_connect($host,$user,$password,$db);
 
-
 function  officer_id()
 {
 $date=date("YmdHis");
@@ -36,7 +35,13 @@ $uniquesavename=time().uniqid(rand());
 $id="d_".$date.$uniquesavename;
 return $id;
 }
-
+function  grievance_id()
+{
+$date=date("YmdHis");
+$uniquesavename=time().uniqid(rand());
+$id="g_".$date.$uniquesavename;
+return $id;
+}
 
 // echo officer_id();
 // echo "<br>";
