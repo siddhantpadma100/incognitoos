@@ -82,7 +82,7 @@ if($_SESSION['officer_log']==1)
         </div>
         
     </div>
-
+         <?php include "footer.php";?>
         
     </body>    
 </html>

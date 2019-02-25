@@ -67,7 +67,7 @@
   <form action="slogin.php" method="post">
     <div class="form-group input-icon">
       <i class="fa fa-user"></i>
-        <input name="uname" class="form-control" placeholder="Email or login" type="email">
+        <input name="uname" class="form-control" placeholder="Email or login" type="text">
     </div> <!-- form-group// -->
 
     <div class="form-group input-icon">

@@ -53,7 +53,7 @@ if (mysqli_connect_errno())
   {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   }
-  $sql="INSERT INTO `reg_form`(`id`,`u_id`, `aadhar_no`, `e_name`, `category`, `gender`, `physi_handy`, `b_name`, `org_type`, `pan_no`, `plant_address`, `office_address`, `mob_no`, `email_id`, `commence_date`, `acc_no`, `ifsc`, `business_activity`, `nic`, `business_details`, `no_of_emp`, `investment`, `attachment`, `status`) VALUES ('$id','$u_id','$aadhar_no','$e_name','$category','$gender','$physi_handy','$b_name','$org_type','$pan_no','$plant_address','$office_address','$mob_no','$email_id','$commence_date','$acc_no','$ifsc','$business_activity','$nic','$business_details','$no_of_emp','$investment','$filename','micro')";
+  $sql="INSERT INTO `reg_form`(`id`,`u_id`, `aadhar_no`, `e_name`, `category`, `gender`, `physi_handy`, `b_name`, `org_type`, `pan_no`, `plant_address`, `office_address`, `mob_no`, `email_id`, `commence_date`, `acc_no`, `ifsc`, `business_activity`, `nic`, `business_details`, `no_of_emp`, `investment`, `attachment`, `status`) VALUES ('$id','$u_id','$aadhar_no','$e_name','$category','$gender','$physi_handy','$b_name','$org_type','$pan_no','$plant_address','$office_address','$mob_no','$email_id','$commence_date','$acc_no','$ifsc','$business_activity','$nic','$business_details','$no_of_emp','$investment','$filename','Pending')";
 $query= mysqli_query($con,$sql);
 if($query)
 {
