@@ -21,6 +21,7 @@
                        <li><a href="viewform.php">View Renewal Forms  Request</a></li>
                      <li><a href="viewform.php">Certificates/Approved form </a></li>
                        <li><a href="viewform.php">Reports </a></li>
+                          <li><a href="logout.php">Logout</a></li>s
                     
                 </ul>
             </div><!-- /.navbar-collapse -->
