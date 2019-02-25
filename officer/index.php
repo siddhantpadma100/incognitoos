@@ -12,6 +12,14 @@ if($_SESSION['officer_log']==1)
         <title>MSME DELHI</title>
     
         <link href="../lib/css/dashboard.css" rel="stylesheet" id="bootstrap-css">
+
+         <link href="../lib/Content/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- custom styles -->
+    <link href="../lib/Content/uikit.css" rel="stylesheet" type="text/css">
+    <link href="../lib/Content/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)">
+
+    
       <script src="lib/jquery-3.2.1.min.js">
                 $(function () {
             $('.navbar-toggle-sidebar').click(function () {

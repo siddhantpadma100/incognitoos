@@ -12,51 +12,7 @@
     <link href="../lib/Content/uikit.css" rel="stylesheet" type="text/css">
     <link href="../lib/Content/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)">
     <script type="text/javascript">
-function validateForm()
 
-{
-
-if( document.myForm.email.value == "" ) 
-        {
-            alert( "Please provide your email!" );
-            document.myForm.fname.focus();
-            return false;
-          }
-         
-         
-if( document.myForm.password.value == "" ) 
-      {
-            alert( "Please provide a password" );
-            document.myForm.pwd.focus();
-            return false;
-         }
-         
-         
-if( document.myForm.email.value == "" ) 
-      {
-            alert( "Please enter an email id" );
-            document.myForm.mail.focus();
-            return false;
-         }
-      
-if (document.myForm.email.value.indexOf("@") == 0)                 
-       { 
-        window.alert("check location of @ in email."); 
-        document.myForm.email.focus(); 
-        return false; 
-       } 
-       
-       
-var a=document.myForm.email.value.length;
-if ((a - document.myForm.email.value.lastIndexOf(".")) < 2)                 
-        { 
-        window.alert("check location of . in email."); 
-        document.myForm.email.focus(); 
-        return false; 
-       } 
-    
-
-}
 </script>
 
 
@@ -106,10 +62,7 @@ if ((a - document.myForm.email.value.lastIndexOf(".")) < 2)
 <article class="card-body">
   <a href="" class="float-right btn btn-outline-primary">Admin Login</a>
   <h4 class="card-title mb-4 mt-1">Admin Login</h4>
-  <p>
-    <a href="" class="btn btn-block btn-twitter"> <i class="fab fa-twitter"></i> &nbsp; Login via Twitter</a>
-    <a href="" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i> &nbsp; Login via facebook</a>
-  </p>
+ 
   <hr>
   <form action="slogin.php" method="post"> 
     <div class="form-group input-icon">
@@ -130,7 +83,7 @@ if ((a - document.myForm.email.value.lastIndexOf(".")) < 2)
             </div> <!-- form-group// -->
         </div>
         <div class="col-md-6 text-right">
-            <a class="small" href="forgot.php">Forgot password?</a>
+            <a class="small" href="#">Forgot password?</a>
         </div>                                            
     </div> <!-- .row// -->                                                                  
 </form>
