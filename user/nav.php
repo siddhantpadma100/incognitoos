@@ -1,11 +1,15 @@
-
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+</head>
 
   <!--Navbar Start -->
   <div style="background-color:#33BEFF; text-align: center">
                 <div class="row">
                     <div class="col-sm-3 col-md-3 ">
                        
-                          <img src="../lib/images/logoba.png" hspace="1" vspace="1" />
+                          <img src="../lib/images/logoba.jpg" hspace="1" vspace="1" />
                      
                     </div>
                     <div class="col-sm-6 col-md-6 col-xs-6 hidden-xs">
@@ -22,7 +26,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3 col-md-3 col-xs-3 hidden-xs">
-                        <img alt="MSME" src="../lib/images/swach-bharat.png" hspace="5" vspace="5" />
+                        <img alt="MSME" src="../lib/images/swach-bharat.png" hspace="5" vspace="50" />
                     </div>
                 </div>
             </div>

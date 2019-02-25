@@ -42,6 +42,7 @@ $result=mysqli_query($con,"SELECT * FROM `reg_form` where `id`=$id");
 		
 	
 ?>
+<
 	<form style="border:solid"
 			style="border-width:thick">
  <!--<div  class="page-header" >-->
@@ -203,8 +204,10 @@ else
 {
 	echo "Something is wrong";
 }
+}
+}
 ?>
 
- <?php include "footer.php";?>
+ <?php include("footer.php");?>
 </body>
 </html>

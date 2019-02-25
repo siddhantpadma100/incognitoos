@@ -66,7 +66,7 @@ function googleTranslateElementInit() {
         <h3>Fill the Details</h3>
         <br>
       </div>
-            <form method="post" action="sregister.php" enctype="multipart/form-data">
+            <form method="post" action="licregform/sregister.php" enctype="multipart/form-data">
 
               <div class="row">
                 <div class="col-md-12">
@@ -75,6 +75,7 @@ function googleTranslateElementInit() {
             				<label>1. Aadhaar Number</label>
             				<br>
             				<input class="form-control" type="text" style="width:70%;height: 40px;" name="aadhar_no" maxlength="12" placeholder="Aadhaar Number" required>
+                    <br>
             			</div>
             		</div>
             		<div class="col-md-12">
@@ -82,6 +83,7 @@ function googleTranslateElementInit() {
             				<label>2. Name of Entrepreneur /Applicant as printed on Aadhaar Card</label>
             				<br>
             				<input class="form-control" type="text" name="e_name" maxlength="70" placeholder="Name of Entrepreneur /Applicant as printed on Aadhaar Card" style="width:70%;height: 40px;" required>
+                    <br>
             			</div>
             		</div>
             		<div class="col-md-12">
@@ -165,7 +167,7 @@ function googleTranslateElementInit() {
                             <br>
                         </div>
                     </div>
-                    <div class="col-md-12">
+                                        <div class="col-md-12">
                         <div class="">
                             <input class="form-control" type="text" name="plant_address" maxlength="200" placeholder="Flat / Door No." style="width:70%;height: 40px;" required>
                             <br>
@@ -201,6 +203,9 @@ function googleTranslateElementInit() {
                        <br>
                        </div>
                     </div>
+                    
+
+
                     <div class="col-md-12">
                        <div class="">                                         
                        <select class="form-control" name="state" style="width:70%;height: 40px;" required>
@@ -253,43 +258,53 @@ function googleTranslateElementInit() {
                        </div>
                     </div>
                     <div class="col-md-12">
+                        <div class="">
+                            <label class="text-left">10. Office (Address) </label>
+                            <br>
+                            <textarea class="form-control" type="text" name="office_address" maxlength="200"  style="width:70%;height: 100px;" required>
+                            </textarea>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
                        <div class="form-group">
-                           <label>10. Mobile No</label>
+                           <label>11. Mobile No</label>
                            <br>
                            <input class="form-control" type="text" placeholder="Mobile No." name="mob_no" maxlength="10" style="width:70%;height: 40px;" required>
                        </div>
                     </div>
+
                     <div class="col-md-12">
                        <div class="form-group">
-                         <label class="text-left">11. Email ID</label>
+                         <label class="text-left">12. Email ID</label>
                          <br>
                          <input class="form-control" type="email" placeholder="Email ID" name="email_id" maxlength="70" style="width:70%;height: 40px;" required>
                        </div>
                     </div>
                     <div class="col-md-12">
                        <div class="form-group">
-                         <label>12. Date of Commencement of Business</label>
+                         <label>13. Date of Commencement of Business</label>
                          <br>
                          <input class="form-control" type="date" name="commence_date" value="YYYY-MM-DD" pattern="[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])" style="width:70%;height: 40px;" required>
                        </div>
                     </div>
                     <div class="col-md-12">
                        <div class="form-group">
-                         <label >13. Bank Account Number</label>
+                         <label >14. Bank Account Number</label>
                          <br>
                          <input class="form-control" type="text" placeholder="Bank Account Number" name="acc_no"  maxlength="20" style="width:70%;height: 40px;" required>
                        </div>
                     </div>
                     <div class="col-md-12">
                        <div class="form-group">
-                          <label class="text-left">14. IFSC Code</label>
+                          <label class="text-left">15. IFSC Code</label>
                           <br>
                           <input class="form-control" type="text" placeholder="IFSC Code" name="ifsc"  maxlength="20" style="width:70%;height: 40px;" required>
                        </div>
                     </div>
                     <div class="col-md-12">
                         <div class="form-group">
-                           <label>15. Main Business Activity of Enterprise</label>
+                           <label>16. Main Business Activity of Enterprise</label>
                            <br>
                            <select class="form-control"  name="business_activity" style="width:70%;height: 40px;" required>
                         <option value="">Select Activity of Enterprise</option>
@@ -300,7 +315,7 @@ function googleTranslateElementInit() {
                     </div>
                     <div class="col-md-12">
                         <div class="form-group">
-                           <label class="text-left">16. NIC 2 Digit Code -  Choose primary Business Activity</label>
+                           <label class="text-left">17. NIC 2 Digit Code -  Choose primary Business Activity</label>
                            <br>
                         <div>
                         <input type="text" class="form-control" placeholder="First select Main Business Activity of Enterprise" class="form-control" name="nic" style="width:70%;height: 40px;" required>               
@@ -310,7 +325,7 @@ function googleTranslateElementInit() {
                     </div>
                     <div class="col-md-12">
                         <div class="form-group">
-                          <label class="text-left">17. Additional details about Business</label>
+                          <label class="text-left">18. Additional details about Business</label>
                           <br>
                           <input type="text" class="form-control" placeholder="Additional details " name="business_details" id="additional_details" value="" style="width:70%;height: 40px;" required>
                         </div>
@@ -318,22 +333,22 @@ function googleTranslateElementInit() {
                              
                        <div class="col-md-12">
                           <div class="form-group">
-                            <label class="text-left">18. Number of employees</label>
+                            <label class="text-left">19. Number of employees</label>
                             <br>
-                            <input type="text" class="form-control" placeholder="Number of employees" name="investment" style="width:70%;height: 40px;" required>
+                            <input type="text" class="form-control" placeholder="Number of employees" name="no_of_emp" style="width:70%;height: 40px;" required>
                        </div>
                     </div>
                     <div class="col-md-12">
                        <div class="form-group">
-                         <label>19. Investment in Plant and Machinery (Amount in Lacs)</label>
+                         <label>20. Investment in Plant and Machinery (Amount in Lacs)</label>
                          <br>
-                          <input type="text" class="form-control" placeholder="Investment" name="attachment" id="Investment" value="" style="width:70%;height: 40px;" required>
+                          <input type="text" class="form-control" placeholder="Investment" name="investment" id="Investment" value="" style="width:70%;height: 40px;" required>
                           
                        </div>
                     </div>
                     <div class="col-md-12">
                         <div class="">
-                          <label>20. Attachment :Incometax </label>
+                          <label>21. Attachment :Incometax </label>
                           
                           <input type="file" name="attachment" placeholder="(Attach Scan copy of aadhar card) or Update later">
                             
@@ -354,12 +369,8 @@ function googleTranslateElementInit() {
               </div> 
     </div>
     </div>                
-    <footer class="pull-left footer">
-            <p class="col-md-12">
-                <hr class="divider">
-               
-            </p>
-        </footer>
+    
 
 </body>
+<?php include('footer.php');?>
 </html>
