@@ -24,7 +24,7 @@ if(isset($_GET['id']))
 {
 include "../config.php";
 $id=$_GET['id'];
-$result=mysqli_query($con,"SELECT * FROM `reg_form` where `id`=$id");
+$result=mysqli_query($con,"SELECT * FROM `reg_form` where `id`='$id'");
 		while ($row=mysqli_fetch_array($result)){
 		
 	
@@ -119,7 +119,7 @@ $result=mysqli_query($con,"SELECT * FROM `reg_form` where `id`=$id");
 
    </table>
     
-    <table class="table" style="border:1px solid black" >
+    <table class="table" style="border-style:solid " style="border-color: coral" >
     	
     	<h4><b>BUSSINESS DETAILS</b> : <?php 
 echo $business_details=$row['business_details']; ?></h4>
@@ -184,6 +184,8 @@ echo $business_details=$row['business_details']; ?></h4>
 <?php echo "<a href=?id=".$row ['id']."'><button class='btn btn-primary'>Approve</button></a>";?>
 </form>
 <?php
+}
+}
  }
 }
 else
@@ -192,6 +194,5 @@ else
 }
 ?>
 
- <?php include "footer.php";?>
 </body>
 </html>

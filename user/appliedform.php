@@ -76,7 +76,7 @@ if($_SESSION['user_log']==1)
     echo "<td>".$row ['id']."</td>";
     echo "<td>".$row ['e_name']."</td>";
     echo "<td>".$row['category']."</td>";
-    echo "<td><a href='viewform2.php?id=".$row ['id']."'><button class='btn btn-sucess'>view</button></a></td>";
+    echo "<td><a href='viewform.php?id=".$row ['id']."'><button class='btn btn-sucess'>view</button></a></td>";
     echo "</tr>";
     $i++;
     }

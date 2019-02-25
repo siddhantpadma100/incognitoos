@@ -2,15 +2,15 @@
 <html>
 <head>
     
-	   
+     
    <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	<style>
+  <style>
 
 
-	</style>
+  </style>
 </head>
 <body>
 
@@ -38,22 +38,22 @@ if(isset($_GET['id']))
 include "../config.php";
 $id=$_GET['id'];
 $result=mysqli_query($con,"SELECT * FROM `reg_form` where `id`=$id");
-		while ($row=mysqli_fetch_array($result)){
-		
-	
+    while ($row=mysqli_fetch_array($result)){
+    
+  
 ?>
-	<form style="border:solid"
-			style="border-width:thick">
+  <form style="border:solid"
+      style="border-width:thick">
  <!--<div  class="page-header" >-->
-    	
-	<div style="background-color:#33BEFF; text-align: center">
+      
+  <div style="background-color:#33BEFF; text-align: center">
                 <div class="row">
-				</div>
-				<div class="row">
-                    	<div align="left">
+        </div>
+        <div class="row">
+                      <div align="left">
                        
                          <img src="lib/images/logoba.png" hspace="3" vspace="3" />
- 						</div>
+            </div>
                    
                   
                         <div align="center" class="header-div" style="padding-top: 10px;">
@@ -88,7 +88,7 @@ $result=mysqli_query($con,"SELECT * FROM `reg_form` where `id`=$id");
         <th>ID :<?php echo $row ['id']; ?> </th>
         <td> </td>
  
-	
+  
       </tr>
     <tr>
         <th>AADHAR NUMBER : <?php echo $aadhar_no=$row['aadhar_no']; ?></th>
@@ -126,17 +126,17 @@ $result=mysqli_query($con,"SELECT * FROM `reg_form` where `id`=$id");
        </tr>
 
        <tr>
-       	<th>EMAIL ID <?php echo $email_id=$row['email_id']; ?></th>
-       	<td></td>
+        <th>EMAIL ID <?php echo $email_id=$row['email_id']; ?></th>
+        <td></td>
       </tr>
 
    </table>
     
     <table class="table" style="border:1px solid black" >
-    	
-    	<h4><b>BUSSINESS DETAILS</b> : <?php 
+      
+      <h4><b>BUSSINESS DETAILS</b> : <?php 
 echo $business_details=$row['business_details']; ?></h4>
-    	<tr>
+      <tr>
         <th>BUSSINESS NAME  </th>
         <th>ORGANIZATION TYPE  </th>
         <th>PLANT ADDRESS </th>
@@ -147,7 +147,7 @@ echo $business_details=$row['business_details']; ?></h4>
        </tr>
 
        <tr>
-     	<td><?php echo $b_name=$row['b_name'];?></td>
+      <td><?php echo $b_name=$row['b_name'];?></td>
         <td><?php echo $org_type=$row['org_type'];?></td>
         <td><?php echo  $plant_address=$row['plant_address'];?></td>
         <td><?php echo $office_address=$row['office_address'];?></td>
@@ -182,7 +182,7 @@ echo $business_details=$row['business_details']; ?></h4>
        </tr>
 
 
-    	 <tr>
+       <tr>
         <th>ATACHMENT :</th>
         <td><?php echo "<image src="."../../doc/".$date."/".$row['attachment']." width='100px'>";?></td>
        </tr>
@@ -201,7 +201,7 @@ echo $business_details=$row['business_details']; ?></h4>
 }
 else
 {
-	echo "Something is wrong";
+  echo "Something is wrong";
 }
 ?>
 
