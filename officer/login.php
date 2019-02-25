@@ -11,53 +11,6 @@
     <!-- custom styles -->
     <link href="../lib/Content/uikit.css" rel="stylesheet" type="text/css">
     <link href="../lib/Content/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)">
-    <script type="text/javascript">
-function validateForm()
-
-{
-
-if( document.myForm.email.value == "" ) 
-       	{
-            alert( "Please provide your email!" );
-            document.myForm.fname.focus();
-            return false;
-          }
-         
-         
-if( document.myForm.password.value == "" ) 
-	    {
-            alert( "Please provide a password" );
-            document.myForm.pwd.focus();
-            return false;
-         }
-         
-         
-if( document.myForm.email.value == "" ) 
-	    {
-            alert( "Please enter an email id" );
-            document.myForm.mail.focus();
-            return false;
-         }
-		  
-if (document.myForm.email.value.indexOf("@") == 0)                 
-   	   { 
-        window.alert("check location of @ in email."); 
-        document.myForm.email.focus(); 
-        return false; 
-  	   } 
-  	   
-  	   
-var a=document.myForm.email.value.length;
-if ((a - document.myForm.email.value.lastIndexOf(".")) < 2)                 
-    	  { 
-        window.alert("check location of . in email."); 
-        document.myForm.email.focus(); 
-        return false; 
-       } 
-    
-
-}
-</script>
 
 
     <title>Officer Login</title>
@@ -130,7 +83,7 @@ if ((a - document.myForm.email.value.lastIndexOf(".")) < 2)
             </div> <!-- form-group// -->
         </div>
         <div class="col-md-6 text-right">
-            <a class="small" href="#">Forgot password?</a>
+            <a class="small" href="forgot.php">Forgot password?</a>
         </div>                                            
     </div> <!-- .row// -->                                                                  
 </form>
@@ -142,7 +95,7 @@ if ((a - document.myForm.email.value.lastIndexOf(".")) < 2)
    <div class="col-md-4">
     
   </div>
-
+       <?php include "footer.php";?>
 
   </body>
 </html>

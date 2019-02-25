@@ -63,15 +63,20 @@ if($_SESSION['admin_log']==1)
       <h2>Overall Requirement</h2>
 
 
-   <?php include "footer.php";?>
-
+   
 
     </div>
 </div>
         </div>
        
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
+    <?php include "footer.php";?>
 
     </body>    
 </html>

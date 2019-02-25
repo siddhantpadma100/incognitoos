@@ -68,20 +68,7 @@ $result=mysqli_query($con,"SELECT * FROM `reg_form` where `id`=$id");
       <tr>
         <th>ID :<?php echo $row ['id']; ?> </th>
         <td> </td>
-       
-		
-
-
-
-
  
-
-
-
-
-
-
-
 	
       </tr>
     <tr>
@@ -198,5 +185,7 @@ else
 	echo "Something is wrong";
 }
 ?>
+
+ <?php include "footer.php";?>
 </body>
 </html>
