@@ -58,7 +58,28 @@ if($_SESSION['user_log']==1)
   Welcome 
     </div>
     <div class="panel-body">
-      <h2>shceme</h2>
+        <table class="table table-bordered">
+      <thead>
+      <tr>
+          <td>Sr.</td><td>License id </td><td>E_Name</td><td>Category</td><td>Action</td>
+      </tr>
+    </thead><tbody>
+        <?php
+       include "../config.php";
+       $i=1;
+       $result=mysqli_query($con,"SELECT * FROM `reg_form`");
+    while ($row=mysqli_fetch_array($result)){
+    echo "<tr>";
+    echo "<td>".$i."</td> ";
+    echo "<td>".$row ['id']."</td>";
+    echo "<td>".$row ['e_name']."</td>";
+    echo "<td>".$row['category']."</td>";
+    echo "<td><a href='viewform2.php?id=".$row ['id']."'><button class='btn btn-sucess'>view</button></a></td>";
+    echo "</tr>";
+    $i++;
+    }
+        ?>
+        </table>
   <br>
     </div>
 </div>
