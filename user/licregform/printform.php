@@ -138,12 +138,8 @@ echo $business_details=$row['business_details']; ?></h4>
         <td><?php echo $commence_date=$row['commence_date']; ?></td>
         <td><?php echo $no_of_emp=$row['no_of_emp'];?></td>
         <td><?php echo $investment=$row['investment']; ?></td>
-        
        </tr>
-
-      
    </table>
-      
       <table class="table" style="border-style: solid"
   style="border-color: coral">
       <h4><b>BANK DETAILS</b></h4>
@@ -164,21 +160,18 @@ echo $business_details=$row['business_details']; ?></h4>
         <td><?php echo $business_activity=$row['business_activity'];
  ?></td>
        </tr>
-
-
     	 <tr>
         <th>ATACHMENT :</th>
         <td><?php echo "<image src="."../../doc/".$date."/".$row['attachment']." width='100px'>";?></td>
        </tr>
-
         <tr>
         <th>STATUS:</th>
         <td><?php echo $row ['id']; ?></td>
        </tr>
-
   </table>
 </div>
-<?php echo "<a href=?id=".$row ['id']."'><button class='btn btn-primary'>Approve</button></a>";?>
+<a href=''><button class='btn btn-primary'>Print</button></a>
+<a href="../index.php">Back</a>
 </form>
 <?php
  }
