@@ -64,7 +64,7 @@ if($_SESSION['officer_log']==1)
        include "../config.php";
        $i=1;
        $result=mysqli_query($con,"SELECT * FROM `reg_form`");
-		while ($row=mysqli_fetch_array($result)){
+		while ($row=mysqli_fetch_array($result)){s
 		echo "<tr>";
 		echo "<td>".$i."</td> ";
 		echo "<td>".$row ['id']."</td>";
