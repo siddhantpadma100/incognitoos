@@ -39,7 +39,7 @@
                             <li class="divider"></li>
                             <li><a href="deleteitem.jsp">Delete Item</a></li>
                             <li class="divider"></li>
-                            <li><a href="logout.php">Logout</a></li>
+                            <li><a href="..\error.jsp">Logout</a></li>
                         </ul>
                     </li>
                 </ul>
