@@ -1,132 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>registration</title>
-  <link href="../lib/css/dashboard.css" rel="stylesheet" id="bootstrap-css">
-  <script src="lib/jquery-3.2.1.min.js">
-                $(function () {
-            $('.navbar-toggle-sidebar').click(function () {
-                $('.navbar-nav').toggleClass('slide-in');
-                $('.side-body').toggleClass('body-slide-in');
-                $('#search').removeClass('in').addClass('collapse').slideUp(200);
-            });
-
-            $('#search-trigger').click(function () {
-                $('.navbar-nav').removeClass('slide-in');
-                $('.side-body').removeClass('body-slide-in');
-                $('.search-input').focus();
-            });
-          });  
-   </script>
-   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    
-    
+	<title></title>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <style type="text/css">
     	
-         
+          body {
+              background: #e9e9e9;
+              color: #666666;
+              font-family: 'RobotoDraft', 'Roboto', sans-serif;
+              font-size: 14px;
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale;
+          }
+          .col-md-12{
+               margin: 0 0 20px;
+               font-size: 25px;
+               font-weight: 300;
+          }
 
     </style>
 </head>
-
 <body>
 
-<?php include "nav.php";?>
-    <div class="container-fluid main-container">
-        <div class="col-md-2 sidebar">
-            <div class="row">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Registration Form</h1>
+			</div>
+<<<<<<< HEAD
+
     
-    <div class="absolute-wrapper"> </div>
-    <!-- Menu -->
-<?php include "sidebar.php";?>
-         </div>          
-        </div>
-    <div class="col-md-10 content">
-              <div class="panel panel-default">
-                 <div class="panel-heading"><h2>Registration Form</h2></div>
-                   <div class="panel-body">
-                      <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h3>Fill the Details</h3>
-        <br>
-      </div>
+
+            <form method="post" action="">
+=======
             <form method="post" action="sregister.php" enctype="multipart/form-data">
-
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="">
-                    <label>1. Aadhaar Number</label>
-                    <br>
-                    <input class="form-control" type="text" style="width:70%;height: 40px;" name="aadhar_no" maxlength="12" placeholder="Aadhaar Number" required>
-                    <br>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="">
-                    <label>2. Name of Entrepreneur /Applicant as printed on Aadhaar Card</label>
-                    <br>
-                    <input class="form-control" type="text" name="e_name" maxlength="70" placeholder="Name of Entrepreneur /Applicant as printed on Aadhaar Card" style="width:70%;height: 40px;" required>
-                    <br>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="">
-                    <label>3. Social Category</label>
-                    <br>
-
-                    
-
-                    <select class="form-control"  name="category" style="width:70%;height: 40px;" required>
-
-                      <option value="">Select Social Category</option>
+>>>>>>> c15d57afcc9c92cc5ea1ee063c1de491cda6afd5
+            	<div class="row">
+            		<div class="col-md-12">
+            			<div class="">
+            				<label>1. Aadhaar Number</label>
+            				<br>
+            				<input class="form-control" type="text" style="width:70%;height: 40px;" name="aadhar_no" maxlength="12" placeholder="Aadhaar Number" required>
+            			</div>
+            		</div>
+            		<div class="col-md-12">
+            			<div class="">
+            				<label>2. Name of Entrepreneur /Applicant as printed on Aadhaar Card</label>
+            				<br>
+            				<input class="form-control" type="text" name="e_name" maxlength="70" placeholder="Name of Entrepreneur /Applicant as printed on Aadhaar Card" style="width:70%;height: 40px;" required>
+            			</div>
+            		</div>
+            		<div class="col-md-12">
+            			<div class="">
+            				<label>3. Social Category</label>
+            				<br>
+<<<<<<< HEAD
+            				<select  class="form-control"  name="social_category" style="width:70%;height: 40px;" required>
+=======
+            				<select class="form-control"  name="category" style="width:70%;height: 40px;" required>
+>>>>>>> c15d57afcc9c92cc5ea1ee063c1de491cda6afd5
+            					<option value="">Select Social Category</option>
                                 <option value="General">General</option>
                                 <option value="SC">SC</option>
                                 <option value="ST">ST</option>
                                 <option value="OBC">OBC</option>
                             </select>
-                            <br>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="">
-                    <label>4. Gender</label>
-                    <br>
-                    <select class="form-control"  name="gender" style="width:70%;height: 40px;" required>
-                      <option value="">Select Gender</option>
+            			</div>
+            		</div>
+            		<div class="col-md-12">
+            			<div class="">
+            				<label>4. Gender</label>
+            				<br>
+            				<select class="form-control"  name="gender" style="width:70%;height: 40px;" required>
+            					<option value="">Select Gender</option>
                                 <option value="male">Male</option>
                                 <option value="female">Female</option>
                             </select>
-                            <br>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="">
-                    <label>5. Physically handicapped</label>
-                    <br>
-                    <select class="form-control" name="physi_handy" style="width:70%;height: 40px;" required>
-                      <option selected="selected" value="">Select Any</option>
-                      <option value="yes">Yes</option>
-                      <option value="no">No</option>
-                    </select>
-                    <br>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="">
-                    <label>6. Name of Enterprise / Business</label>
-                    <br>
-                    <input class="form-control" type="text" name="b_name" maxlength="200" placeholder="Name of Enterprise / Business" style="width:70%;height: 40px;" required>
-                    <br>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="">
-                    <label>7. Type of Organisation</label>
-                    <br>
-                    <select class="form-control" name="org_type" style="width:70%;height: 40px;" required>
+            			</div>
+            		</div>
+            		<div class="col-md-12">
+            			<div class="">
+            				<label>5. Physically handicapped</label>
+            				<br>
+            				<select class="form-control" name="physi_handy" style="width:70%;height: 40px;" required>
+            					<option selected="selected" value="">Select Any</option>
+            					<option value="yes">Yes</option>
+            					<option value="no">No</option>
+            				</select>
+            			</div>
+            		</div>
+            		<div class="col-md-12">
+            			<div class="">
+            				<label>6. Name of Enterprise / Business</label>
+            				<br>
+            				<input class="form-control" type="text" name="b_name" maxlength="200" placeholder="Name of Enterprise / Business" style="width:70%;height: 40px;" required>
+            			</div>
+            		</div>
+            		<div class="col-md-12">
+            			<div class="">
+            				<label>7. Type of Organisation</label>
+            				<br>
+            				<select class="form-control" name="org_type" style="width:70%;height: 40px;" required>
                                 <option value="">Select Type of Organisation</option>
                                 <option value="Proprietorship Firm">Proprietorship Firm</option>
                                 <option value="Hindu Undivided Family">Hindu Undivided Family</option>
@@ -139,16 +116,14 @@
                                 <option value="Society">Society</option>
                                 <option value="Trust">Trust</option>
                             </select>
-                            <br>
-                  </div>
-                </div>
-                <div class="col-md-12">
+            			</div>
+            		</div>
+            		<div class="col-md-12">
                         <div class="">
                             <label class="text-left">8. PAN </label>
                             
                             <br>
                             <input class="form-control" type="text" placeholder="PAN" name="pan_no" maxlength="10" style="width:70%;height: 40px;" required>
-                            <br>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -295,7 +270,7 @@
                            <label class="text-left">16. NIC 2 Digit Code -  Choose primary Business Activity</label>
                            <br>
                         <div>
-                        <input type="text" class="form-control" placeholder="First select Main Business Activity of Enterprise" class="form-control" name="nic" style="width:70%;height: 40px;" required>               
+                        <input type="text" class="form-control" placeholder="first select Main Business Activity of Enterprise" class="form-control" name="nic" style="width:70%;height: 40px;" required>               
                         </div>
                      
                         </div>
@@ -304,7 +279,7 @@
                         <div class="form-group">
                           <label class="text-left">17. Additional details about Business</label>
                           <br>
-                          <input type="text" class="form-control" placeholder="Additional details " name="business_details" id="additional_details" value="" style="width:70%;height: 40px;" required>
+                          <input type="text" class="form-control" placeholder="Additional details " name="no_of_emp" id="additional_details" value="" style="width:70%;height: 40px;" required>
                         </div>
                     </div>
                              
@@ -325,9 +300,9 @@
                     </div>
                     <div class="col-md-12">
                         <div class="">
-                          <label>20. Attachment :Incometax </label>
+                          <label>20. Attachment : (jpg,png file &lt; 500KB) </label>
                           
-                          <input type="file" name="attachment" placeholder="(Attach Scan copy of aadhar card) or Update later">
+                          <input type="file" placeholder="(Attach Scan copy of aadhar card) or Update later">
                             
                           
                           <br>
@@ -336,22 +311,13 @@
                                                              
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-success btn-lg btn-block" name="" style="width:70%;">SUBMIT</button>
+                    <input type="submit" name="" value="Register" style="width:70%;height: 40px;">
                     <br>
-              </div>
+            	</div>
             </form>
-    </div>
-  </div>
-                   </div>
-              </div> 
-    </div>
-    </div>                
-    <footer class="pull-left footer">
-            <p class="col-md-12">
-                <hr class="divider">
-               
-            </p>
-        </footer>
+		</div>
+	</div>
+
 
 </body>
 </html>
