@@ -128,7 +128,7 @@ $result=mysqli_query($con,"SELECT * FROM `reg_form` where `id`=$id");
     
     <table class="table" style="border:1px solid black" >
     	
-    	<h4><b>BUSSINESS DETAILS</b>  <?php 
+    	<h4><b>BUSSINESS DETAILS</b> : <?php 
 echo $business_details=$row['business_details']; ?></h4>
     	<tr>
         <th>BUSSINESS NAME  </th>
@@ -178,7 +178,7 @@ echo $business_details=$row['business_details']; ?></h4>
 
     	 <tr>
         <th>ATACHMENT :</th>
-        <td><?php ?></td>
+        <td><?php echo "<image src="."../../doc/".$date."/".$row['attachment']." width='100px'>";?></td>
        </tr>
 
         <tr>
