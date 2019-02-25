@@ -76,6 +76,7 @@ if($_SESSION['user_log']==1)
             </p>
         </footer>
     </div>
+    <?php include('footer.php');?>
     </body>    
 </html>
 <?php
