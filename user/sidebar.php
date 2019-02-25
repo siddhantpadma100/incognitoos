@@ -17,15 +17,11 @@
                             </div>
                         </div>
                     </li>
-<<<<<<< HEAD
-                    <li><a href="../grievance/register.php">Grievance</a></li>
-                    <li><a href="#">Notifications</a></li>
-                    
-=======
-                    <li><a href="closing.jsp">Grievance</a></li>
+
+                     <li><a href="../grievance/register.php">Grievance</a></li>
                     <li><a href="gen.jsp">Notifications</a></li>
                     <li><a href="logout.php">Logout</a></li>
->>>>>>> ad8868d678bc68c147a7065cc757e23d5f0fbd76
+
 
                 </ul>
             </div><!-- /.navbar-collapse -->
