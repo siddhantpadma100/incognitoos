@@ -14,6 +14,12 @@
 </head>
 <body>
     <?php
+    session_start();
+if(isset($_SESSION['officer_log']))
+{
+if($_SESSION['officer_log']==1)
+{ 
+
 if(isset($_GET['id']))
 {
 include "../config.php";
