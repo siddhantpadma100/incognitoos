@@ -12,12 +12,13 @@
                                     
                                     <li><a href="addofficer.php">Add officer</a></li>
                                     <li><a href="viewofficer.php">View officer</a></li>
-                                
+                                    
                                 </ul>
                             </div>
                         </div>
                     </li>
                     <li><a href="classify.php">Classify business</a></li>
+                     <li><a href="logout.php">Logout</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>

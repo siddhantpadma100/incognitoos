@@ -18,7 +18,7 @@
                     </li>
                     <li><a href="closing.jsp">Grievance</a></li>
                     <li><a href="gen.jsp">Notifications</a></li>
-                    
+                    <li><a href="logout.php">Logout</a></li>
 
                 </ul>
             </div><!-- /.navbar-collapse -->

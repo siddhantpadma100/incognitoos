@@ -130,7 +130,7 @@ if ((a - document.myForm.email.value.lastIndexOf(".")) < 2)
             </div> <!-- form-group// -->
         </div>
         <div class="col-md-6 text-right">
-            <a class="small" href="#">Forgot password?</a>
+            <a class="small" href="forgot.php">Forgot password?</a>
         </div>                                            
     </div> <!-- .row// -->                                                                  
 </form>
