@@ -11,6 +11,12 @@ if($_SESSION['admin_log']==1)
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>MSME DELHI</title>
         <link href="../lib/css/dashboard.css" rel="stylesheet" id="bootstrap-css">
+
+         <link href="../lib/Content/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- custom styles -->
+    <link href="../lib/Content/uikit.css" rel="stylesheet" type="text/css">
+    <link href="../lib/Content/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)">
       
       <script src="lib/jquery-3.2.1.min.js">
                 $(function () {
@@ -46,7 +52,8 @@ if($_SESSION['admin_log']==1)
     <div class="absolute-wrapper"> </div>
     <!-- Menu -->
   <?php include "sidebar.php";?>
-</div>          </div>
+</div>        
+ </div>
         <div class="col-md-10 content">
               <div class="panel panel-default">
     <div class="panel-heading">
@@ -56,22 +63,20 @@ if($_SESSION['admin_log']==1)
       <h2>Overall Requirement</h2>
 
 
+   
 
-
-
-
-  <br>
     </div>
 </div>
         </div>
-        <footer class="pull-left footer">
-            <p class="col-md-12">
-                <hr class="divider">
-               
-            </p>
-        </footer>
+       
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
+    <?php include "footer.php";?>
 
     </body>    
 </html>

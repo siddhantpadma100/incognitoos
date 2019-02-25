@@ -1,9 +1,9 @@
 
    <?php
 session_start();
-if(isset($_SESSION['admin_log']))
+if(isset($_SESSION['user_log']))
 {
-if($_SESSION['admin_log']==1)
+if($_SESSION['user_log']==1)
 { 
 ?>
   <!DOCTYPE html>
@@ -28,6 +28,7 @@ if($_SESSION['admin_log']==1)
             });
           });  
    </script>
+
 
     </head>
  <body> 
@@ -79,13 +80,10 @@ if($_SESSION['admin_log']==1)
     </div>
 </div>
         </div>
-        <footer class="pull-left footer">
-            <p class="col-md-12">
-                <hr class="divider">
-               
-            </p>
-        </footer>
-    </div>
+      </div>
+
+        <?php include "footer.php";?>
+    
 
 
     </body>    

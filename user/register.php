@@ -20,6 +20,10 @@
 	<br><input type="submit" name="" value="Register" >
 
 </form>
-
+<br>
+<br>
+<br>
+<br>
+ <?php include "footer.php";?>
 </body>
 </html>

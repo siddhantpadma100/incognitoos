@@ -134,8 +134,13 @@
 </form>
 </article>
 </div> <!-- card.// -->
+</div>
+</div>
+</div>
 
-
+ <?php include "footer.php";?>
+</body>
+</html>
 
 
 

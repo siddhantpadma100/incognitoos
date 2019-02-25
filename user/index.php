@@ -1,9 +1,9 @@
 
    <?php
 session_start();
-if(isset($_SESSION['admin_log']))
+if(isset($_SESSION['user_log']))
 {
-if($_SESSION['admin_log']==1)
+if($_SESSION['user_log']==1)
 { 
 ?>
   <!DOCTYPE html>
@@ -12,6 +12,10 @@ if($_SESSION['admin_log']==1)
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>User Dashboard</title>
        <link href="../lib/css/dashboard.css" rel="stylesheet" id="bootstrap-css">
+
+       
+   
+
       <script src="lib/jquery-3.2.1.min.js">
                 $(function () {
             $('.navbar-toggle-sidebar').click(function () {
@@ -35,6 +39,9 @@ if($_SESSION['admin_log']==1)
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 
+
+
+
 <?php include "nav.php";?>
 
     <div class="container-fluid main-container">
@@ -51,7 +58,11 @@ if($_SESSION['admin_log']==1)
    
     </div>
     <div class="panel-body">
+<<<<<<< HEAD
       <h2></h2>
+=======
+      <h2>shceme</h2>
+>>>>>>> ad8868d678bc68c147a7065cc757e23d5f0fbd76
   <br>
     </div>
 </div>
@@ -59,12 +70,9 @@ if($_SESSION['admin_log']==1)
         <footer class="pull-left footer">
             <p class="col-md-12">
                 <hr class="divider">
-               
             </p>
         </footer>
     </div>
-
-
     </body>    
 </html>
 <?php

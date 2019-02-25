@@ -1,11 +1,10 @@
 <?php
 session_start();
-if(isset($_SESSION['admin_log']))
+if(isset($_SESSION['officer_log']))
 {
-if($_SESSION['admin_log']==1)
+if($_SESSION['officer_log']==1)
 { 
 ?>
-   
   <!DOCTYPE html>
 <html>
     <head>
@@ -13,6 +12,14 @@ if($_SESSION['admin_log']==1)
         <title>MSME DELHI</title>
     
         <link href="../lib/css/dashboard.css" rel="stylesheet" id="bootstrap-css">
+
+         <link href="../lib/Content/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- custom styles -->
+    <link href="../lib/Content/uikit.css" rel="stylesheet" type="text/css">
+    <link href="../lib/Content/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)">
+
+    
       <script src="lib/jquery-3.2.1.min.js">
                 $(function () {
             $('.navbar-toggle-sidebar').click(function () {
@@ -28,15 +35,13 @@ if($_SESSION['admin_log']==1)
             });
           });  
    </script>
-
     </head>
  <body> 
-    
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 
-<?php include "nav.php"?>
+<?php include "nav.php";?>
 
 
 
@@ -48,7 +53,7 @@ if($_SESSION['admin_log']==1)
     <!-- uncomment code for absolute positioning tweek see top comment in css -->
     <div class="absolute-wrapper"> </div>
     <!-- Menu -->
-  <?php include "sidebar.php"?>
+  <?php include "sidebar.php";?>
 </div>          </div>
         <div class="col-md-10 content">
               <div class="panel panel-default">
@@ -72,7 +77,7 @@ if($_SESSION['admin_log']==1)
 
     </body>    
 </html>
-
+<?php
 }
 else
 {

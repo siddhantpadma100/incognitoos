@@ -3,7 +3,7 @@
             <!-- Main Menu -->
             <div class="side-menu-container">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.jsp">Dashboard</a></li>
+                    <li class="active"><a href="index.php">Dashboard</a></li>
                     <li class="panel panel-default" id="dropdown">
                         <a data-toggle="collapse" href="#dropdown-lvl2">Officer<span class="caret"></span></a>
                         <div id="dropdown-lvl2" class="panel-collapse collapse">
@@ -12,12 +12,13 @@
                                     
                                     <li><a href="addofficer.php">Add officer</a></li>
                                     <li><a href="viewofficer.php">View officer</a></li>
-                                    <li><a href="deleteofficer.php">Delete Officer</a></li>
+                                    
                                 </ul>
                             </div>
                         </div>
                     </li>
-                    <li><a href="classify.jsp">Classify business</a></li>
+                    <li><a href="classify.php">Classify business</a></li>
+                     <li><a href="logout.php">Logout</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>

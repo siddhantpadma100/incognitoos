@@ -10,13 +10,18 @@
                             <div class="panel-body">
                                 <ul class="nav navbar-nav">
                                     
-                                    <li><a href="addofficer.php>">View Users</a></li>
-                                    <li><a href="viewform.php">View Registration Forms </a></li>
-                                    
+                                    <li><a href="viewuser.php">View Users</a></li>
+                                   
+                                      <li><a href="viewform.php">Reports </a></li>
                                 </ul>
                             </div>
                         </div>
                     </li>
+                     <li><a href="viewform.php">View New Registration Forms  Request</a></li>
+                       <li><a href="viewform.php">View Renewal Forms  Request</a></li>
+                     <li><a href="viewform.php">Certificates/Approved form </a></li>
+                       <li><a href="viewform.php">Reports </a></li>
+                          <li><a href="logout.php">Logout</a></li>s
                     
                 </ul>
             </div><!-- /.navbar-collapse -->

@@ -27,9 +27,8 @@ if($_SESSION['admin_log']==1)
             });
           });  
    </script>
-<style type="text/css">
-    
-</style>
+
+
     </head>
  <body> 
     
@@ -52,7 +51,7 @@ if($_SESSION['admin_log']==1)
         <div class="col-md-10 content">
               <div class="panel panel-default">
     <div class="panel-heading">
-  <h1>Welcome</h1> 
+  <h1>Add Officer</h1> 
 
   <div class="container">
   <div class="row">
@@ -85,7 +84,12 @@ if($_SESSION['admin_log']==1)
 <input type="text"  class="form-control"  name="email_id" required>
 </div>
 </div>
-
+<div class="form-group">
+<label for="last_name" class="col-xs-3 control-label">Mobile No:</label>
+<div class="col-xs-9">
+<input type="number" class="form-control" name="mob_no" required>
+</div>
+</div>
 <div class="form-group">
 <label for="last_name" class="col-xs-3 control-label">Password:</label>
 <div class="col-xs-9">
@@ -118,13 +122,14 @@ if($_SESSION['admin_log']==1)
     </div>
 </div>
         </div>
-        <footer class="pull-left footer">
-            <p class="col-md-12">
-                <hr class="divider">
-               
-            </p>
-        </footer>
+    
     </div>
+  </div>
+  
+</div>
+
+   
+     <?php include "footer.php";?>
 
 
     </body>    

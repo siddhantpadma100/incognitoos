@@ -31,6 +31,7 @@
     </style>
 </head>
 
+<<<<<<< HEAD:user/cerreg.php
 <body>
 
 <?php include "nav.php";?>
@@ -82,6 +83,35 @@
                     <select class="form-control"  name="category" style="width:70%;height: 40px;" required>
 
                       <option value="">Select Social Category</option>
+=======
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Registration Form</h1>
+			</div>
+            <form method="post" action="sregister.php" enctype="multipart/form-data">
+            	<div class="row">
+            		<div class="col-md-12">
+            			<div class="">
+            				<label>1. Aadhaar Number</label>
+            				<br>
+            				<input class="form-control" type="text" style="width:70%;height: 40px;" name="aadhar_no" maxlength="12" placeholder="Aadhaar Number" required>
+            			</div>
+            		</div>
+            		<div class="col-md-12">
+            			<div class="">
+            				<label>2. Name of Entrepreneur /Applicant as printed on Aadhaar Card</label>
+            				<br>
+            				<input class="form-control" type="text" name="e_name" maxlength="70" placeholder="Name of Entrepreneur /Applicant as printed on Aadhaar Card" style="width:70%;height: 40px;" required>
+            			</div>
+            		</div>
+            		<div class="col-md-12">
+            			<div class="">
+            				<label>3. Social Category</label>
+            				<br>
+            				<select class="form-control"  name="category" style="width:70%;height: 40px;" required>
+            					<option value="">Select Social Category</option>
+>>>>>>> ad8868d678bc68c147a7065cc757e23d5f0fbd76:user/licregform/cerreg.php
                                 <option value="General">General</option>
                                 <option value="SC">SC</option>
                                 <option value="ST">ST</option>
