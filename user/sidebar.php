@@ -10,6 +10,7 @@
                             <div class="panel-body">
                                 <ul class="nav navbar-nav">
                                     <li><a href="licregform/cerreg.php">Apply for Certificate</a></li>
+                                        <li><a href="licregform/appliedform.php">Applied form</a></li>
                                     <li><a href="#">Update Certificate</a></li>
                                     
                                 </ul>

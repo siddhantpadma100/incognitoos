@@ -58,7 +58,7 @@ if($_SESSION['admin_log']==1)
   Welcome 
     </div>
     <div class="panel-body">
-      <h2>Overall Requirement</h2>
+      <h2>shceme</h2>
   <br>
     </div>
 </div>
@@ -66,12 +66,9 @@ if($_SESSION['admin_log']==1)
         <footer class="pull-left footer">
             <p class="col-md-12">
                 <hr class="divider">
-               
             </p>
         </footer>
     </div>
-
-
     </body>    
 </html>
 <?php
