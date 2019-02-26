@@ -71,13 +71,12 @@ function googleTranslateElementInit() {
     </div>
     <div class="panel-body">
 
-<<<<<<< HEAD
+
       <h2></h2>
 
       <h2>Scheme</h2>
-=======
-      <h2>shceme</h2>
->>>>>>> 726b07b201c87e660f8b205aae2c659babe75399
+
+
 
   <br>
     </div>
