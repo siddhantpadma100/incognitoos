@@ -119,7 +119,7 @@ $result=mysqli_query($con,"SELECT * FROM `reg_form` where `id`='$id'");
 
    </table>
     
-    <table class="table" style="border:1px solid black" >
+    <table class="table" style="border-style:solid " style="border-color: coral" >
     	
     	<h4><b>BUSSINESS DETAILS</b> : <?php 
 echo $business_details=$row['business_details']; ?></h4>
